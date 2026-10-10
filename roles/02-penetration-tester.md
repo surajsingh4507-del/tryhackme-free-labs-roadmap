@@ -65,7 +65,7 @@ Gain initial shell access and escalate privileges on Linux and Windows targets.
 |---|-----------|------------|-----------|-------------|-----------------------------------|
 | 13 | **Metasploit: Introduction** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/metasploitintro) | Msfconsole, modules, payloads, listening & handling shells |
 | 14 | **Linux Privilege Escalation** | Easy/Medium | 2 hrs | [Access THM](https://tryhackme.com/room/linprivesc) | SUID binaries, cron jobs, sudo misconfigurations, capabilities |
-| 15 | **Windows Privilege Escalation** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/windows10privesc) | Unquoted service paths, token manipulation, automated scripts |
+| 15 | **Windows Privilege Escalation** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/windowsprivilegeescalation) | Unquoted service paths, token manipulation, automated scripts |
 | 16 | **Ignite** | Easy CTF | 1 hr | [Access THM](https://tryhackme.com/room/ignite) | Real-world Fuel CMS vulnerability exploitation to root |
 | 17 | **Pickle Rick** | Easy CTF | 1 hr | [Access THM](https://tryhackme.com/room/picklerick) | Rick and Morty themed web enumeration & privilege escalation |
 | 18 | **Brooklyn 99** | Easy CTF | 45 mins | [Access THM](https://tryhackme.com/room/brooklyn99) | Beginner friendly CTF with steganography, SSH bruteforce & sudo |

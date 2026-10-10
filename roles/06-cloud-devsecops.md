@@ -26,13 +26,13 @@
 
 ---
 
-## 🚀 Phase 1: Cloud Security Fundamentals
+## 🚀 Phase 1: Cloud & Infrastructure Fundamentals
 
 | # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
 |---|-----------|------------|-----------|-------------|-----------------------------------|
-| 1 | **Intro to Cloud** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/introcloud) | Cloud service models (IaaS, PaaS, SaaS) & shared responsibility |
-| 2 | **Intro to AWS** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/awsintro) | AWS console navigation, EC2, S3, IAM user setup |
-| 3 | **Cloud Security Intro** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/cloudsecurityintro) | Cloud misconfigurations, public S3 buckets, IAM privilege leaks |
+| 1 | **Virtualization and Containers** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/virtualizationandcontainers) | Cloud service models, Docker & container concepts |
+| 2 | **Intro to IaC** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/introtoiac) | Infrastructure as Code basics, Terraform fundamentals |
+| 3 | **Cluster Hardening** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/clusterhardening) | Cloud misconfigurations & Kubernetes network hardening |
 
 ---
 
@@ -40,9 +40,9 @@
 
 | # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
 |---|-----------|------------|-----------|-------------|-----------------------------------|
-| 4 | **Docker Security** | Easy/Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/dockersecurity) | Container escape vulnerabilities, non-root users, Trivy scans |
-| 5 | **Kubernetes Fundamentals** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/kubernetes) | Pods, Deployments, RBAC, API Server security |
-| 6 | **Container Vulnerabilities** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/containervulnerabilities) | Exploiting misconfigured Docker sockets and API endpoints |
+| 4 | **Virtualization and Containers** | Easy/Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/virtualizationandcontainers) | Container escape vulnerabilities, Docker isolation |
+| 5 | **Intro to Kubernetes** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/introkubernetes) | Pods, Deployments, RBAC, API Server security |
+| 6 | **K8s Best Security Practices** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/k8sbestsecuritypractices) | Exploiting misconfigured Docker sockets and API endpoints |
 
 ---
 
@@ -50,7 +50,7 @@
 
 | # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
 |---|-----------|------------|-----------|-------------|-----------------------------------|
-| 7 | **DevSecOps Intro** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/devsecopsintro) | Integrating security into DevOps (Shift Left), SAST vs DAST |
+| 7 | **Intro to DevSecOps** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/introdevsecops) | Integrating security into DevOps (Shift Left), SAST vs DAST |
 | 8 | **Source Code Analysis** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/sourcecodeanalysis) | Static Application Security Testing (SAST) & code auditing |
 | 9 | **Secret Scanning** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/secretscanning) | Finding leaked API keys, tokens, and credentials in Git |
 

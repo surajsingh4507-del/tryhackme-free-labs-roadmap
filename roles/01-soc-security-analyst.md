@@ -67,7 +67,7 @@ Learn how to handle real security incidents, triage suspicious emails, and detec
 | 14 | **Phishing Emails 101** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/phishingemails101) | Email header analysis, SPF/DKIM/DMARC, attachment analysis |
 | 15 | **Incident Response Methodology** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/incidentresponsemethodology) | PICERL framework (Preparation, Identification, Containment...) |
 | 16 | **Investigat3d** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/investigat3d) | Hands-on Windows triage, compromised machine investigation |
-| 17 | **Blue Primer** | Medium | 1 hr | [Access THM](https://tryhackme.com/room/blue-prints) | Blue team defenses, hardening, and network security audit |
+| 17 | **Blueprint** | Medium | 1 hr | [Access THM](https://tryhackme.com/room/blueprint) | Blue team defenses, hardening, and network security audit |
 | 18 | **Base64** | Easy | 30 mins | [Access THM](https://tryhackme.com/room/base64) | Decoding obfuscated malware payloads & PowerShell commands |
 
 ---

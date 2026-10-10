@@ -42,7 +42,7 @@
 | 4 | **Cyber Kill Chain** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/cyberkillchain) | Lockheed Martin 7-stage attack lifecycle model |
 | 5 | **Diamond Model** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/diamondmodel) | Adversary, Infrastructure, Capability, Victim mapping |
 | 6 | **MITRE ATT&CK** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/mitre) | TTP matrix navigation, Enterprise ATT&CK mapping |
-| 7 | **Threat Intelligence Intro** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/threatintelintro) | Strategic, tactical, and operational intelligence |
+| 7 | **Threat Intelligence Intro** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/introtocyberthreatintel) | Strategic, tactical, and operational intelligence |
 
 ---
 

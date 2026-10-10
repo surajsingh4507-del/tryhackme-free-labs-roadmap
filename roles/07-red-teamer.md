@@ -39,9 +39,9 @@
 
 | # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
 |---|-----------|------------|-----------|-------------|-----------------------------------|
-| 4 | **Red Team Intro** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/redteamintro) | Engagement scoping, OPSEC, Red Team vs Pen Testing |
+| 4 | **Red Team Fundamentals** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/redteamfundamentals) | Engagement scoping, OPSEC, Red Team vs Pen Testing |
 | 5 | **Red Team Recon** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/redteamrecon) | Stealthy reconnaissance, domain fronting, infrastructure setup |
-| 6 | **Intro to C2** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/c2intro) | Command & Control frameworks, listeners, implants, stagers |
+| 6 | **Red Team Engagements** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/redteamengagements) | Command & Control frameworks, listeners, implants, stagers |
 
 ---
 
@@ -49,9 +49,9 @@
 
 | # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
 |---|-----------|------------|-----------|-------------|-----------------------------------|
-| 7 | **Bypassing AV** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/bypassingav) | Payload encoding, shellcode execution, obfuscation |
-| 8 | **Living Off the Land (LOLBAS)** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/lolbas) | Exploiting native Windows binaries (Certutil, PowerShell, MSBuild) |
-| 9 | **Lateral Movement** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/lateralmovement) | Pass-the-Hash, Pass-the-Ticket, WinRM, WMI execution |
+| 7 | **Atomic Red Team** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/atomicredteam) | Payload encoding, shellcode execution, obfuscation |
+| 8 | **Living Off the Land** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/livingofftheland) | Exploiting native Windows binaries (Certutil, PowerShell, MSBuild) |
+| 9 | **Detecting AD Lateral Movement** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/detectingadlateralmovement) | Pass-the-Hash, Pass-the-Ticket, WinRM, WMI execution |
 
 ---
 

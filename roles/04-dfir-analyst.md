@@ -40,10 +40,10 @@
 
 | # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
 |---|-----------|------------|-----------|-------------|-----------------------------------|
-| 4 | **Autopsy** | Easy/Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/autopsy2) | Disk image ingestion, keyword search, timeline analysis |
+| 4 | **Autopsy** | Easy/Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/autopsy) | Disk image ingestion, keyword search, timeline analysis |
 | 5 | **Windows Forensics 1** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/windowsforensics1) | Registry hives, SAM, SYSTEM, SOFTWARE, USB history |
 | 6 | **Windows Forensics 2** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/windowsforensics2) | Prefetch files, Shimcache, Amcache, Jump Lists, LNK files |
-| 7 | **Disk Analysis & Carving** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/disksurfer) | Master Boot Record (MBR), Master File Table (MFT), carving |
+| 7 | **Forensic Imaging** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/forensicimaging) | Master Boot Record (MBR), Master File Table (MFT), carving |
 
 ---
 
@@ -51,7 +51,7 @@
 
 | # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
 |---|-----------|------------|-----------|-------------|-----------------------------------|
-| 8 | **Intro to Malware Analysis** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/malwareanalysisintro) | Static vs Dynamic analysis, hashes, VirusTotal, PEStudio |
+| 8 | **Intro to Malware Analysis** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/intromalwareanalysis) | Static vs Dynamic analysis, hashes, VirusTotal, PEStudio |
 | 9 | **RE101 - Intro to Reverse Engineering** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/re101) | Assembly language, IDA Free, Ghidra basics, disassembling binaries |
 | 10 | **Redline** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/redline) | FireEye Redline memory collector & triage analysis |
 
