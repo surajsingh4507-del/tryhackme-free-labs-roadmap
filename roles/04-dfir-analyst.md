@@ -1,6 +1,6 @@
 # 🔍 Free TryHackMe DFIR Labs – Memory Forensics, Artifacts & Incident Investigation Practice
 
-A curated list of **free TryHackMe rooms** focused entirely on **Digital Forensics and Incident Response (DFIR)** training. Ideal for **Digital Forensics Analysts**, **Incident Responders**, and **Malware Investigators**, these hands-on labs cover core skills like **volatile memory analysis**, **disk forensics**, **Windows artifact investigation**, and **malware reverse engineering**.
+A curated list of **free TryHackMe rooms** focused entirely on **Digital Forensics and Incident Response (DFIR)** training. Ideal for **Digital Forensics Analysts**, **Incident Responders**, and **Malware Investigators**, these hands-on labs cover core skills like **volatile memory analysis**, **disk forensics**, **Windows & Linux artifact investigation**, and **malware reverse engineering**.
 
 ---
 
@@ -15,12 +15,13 @@ Whether you're a beginner or preparing for certifications like:
 
 ...these labs will help you develop skills in:
 
-- ✅ Forensic acquisition & chain of custody principles  
-- ✅ Volatile RAM extraction & analysis (Volatility 3)  
+- ✅ Forensic acquisition & cold system analysis  
+- ✅ Volatile RAM extraction & analysis (Volatility)  
 - ✅ File carving & metadata extraction (Autopsy & FTK)  
-- ✅ Windows Registry forensics (SAM, SYSTEM, SOFTWARE hives)  
-- ✅ Program execution artifacts (Prefetch, Shimcache, Amcache, LNK)  
-- ✅ Static & dynamic malware triage (VirusTotal, PEStudio, Ghidra)
+- ✅ Windows & Linux forensic artifact triage  
+- ✅ Session analysis & network traffic reconstruction  
+- ✅ Hands-on forensic CTF investigation cases  
+- ✅ Static & dynamic malware triage and reverse engineering
 
 ---
 
@@ -32,19 +33,21 @@ Whether you're a beginner or preparing for certifications like:
 
 | Icon | Title | Subtitle | Link |
 |:---:|---|---|:---:|
-| 🔬 | **Intro to Digital Forensics** | Chain of custody, forensic imaging & legal investigation basics | [🔗 Visit](https://tryhackme.com/room/introdigitalforensics) |
+| 🔬 | **Intro to Cold System Forensics** | Fundamentals of dead-box analysis, disk imaging & acquisition | [🔗 Visit](https://tryhackme.com/room/introtocoldsystemforensics) |
 | 🗃️ | **Forensics** | File headers, magic bytes, EXIF metadata & steganography | [🔗 Visit](https://tryhackme.com/room/forensics) |
-| 🧠 | **Volatility** | RAM dump extraction, process trees & network socket recovery | [🔗 Visit](https://tryhackme.com/room/volatility) |
-| 🔎 | **Autopsy** | Disk image ingestion, keyword search & timeline reconstruction | [🔗 Visit](https://tryhackme.com/room/autopsy) |
-| 🪟 | **Windows Forensics 1** | Registry hives, SAM, SYSTEM, SOFTWARE, USB device history | [🔗 Visit](https://tryhackme.com/room/windowsforensics1) |
-| 🗂️ | **Windows Forensics 2** | Prefetch files, Shimcache, Amcache, Jump Lists & Shellbags | [🔗 Visit](https://tryhackme.com/room/windowsforensics2) |
-| 💾 | **Forensic Imaging** | Bit-by-bit imaging, MBR/GPT parsing, Master File Table (MFT) | [🔗 Visit](https://tryhackme.com/room/forensicimaging) |
+| 🧠 | **Memory Forensics** | Fundamentals of volatile RAM analysis & process dumping | [🔗 Visit](https://tryhackme.com/room/memoryforensics) |
+| ⚡ | **Volatility** | Investigating RAM captures, process trees & network sockets | [🔗 Visit](https://tryhackme.com/room/bpvolatility) |
+| 🔎 | **Disk Analysis & Autopsy** | Ingesting disk images, keyword indexing & artifact analysis | [🔗 Visit](https://tryhackme.com/room/autopsy2ze0) |
+| 🐧 | **Linux Server Forensics** | Investigating compromised Linux systems, auth logs & persistence | [🔗 Visit](https://tryhackme.com/room/linuxserverforensics) |
+| 🪟 | **Windows Applications Forensics** | Event logs, application execution artifacts & database triage | [🔗 Visit](https://tryhackme.com/room/windowsapplications) |
+| 🌐 | **Session Forensics** | Reconstructing attacker web sessions, cookies & token abuse | [🔗 Visit](https://tryhackme.com/room/sessionforensics) |
+| 🍎 | **macOS Forensics: The Basics** | Investigating macOS file system, plist files & unified logs | [🔗 Visit](https://tryhackme.com/room/macosforensicsbasics) |
+| 🚨 | **Digital Forensics Case B4DM755** | Hands-on DFIR investigation case: solve real forensic questions | [🔗 Visit](https://tryhackme.com/room/caseb4dm755) |
 | 🦠 | **Intro to Malware Analysis** | Static vs Dynamic analysis, file hashing, strings & VirusTotal | [🔗 Visit](https://tryhackme.com/room/intromalwareanalysis) |
-| ⚙️ | **RE101 - Intro to Reverse Eng** | Assembly language, x86 architecture & Ghidra disassembly | [🔗 Visit](https://tryhackme.com/room/re101) |
-| 🚨 | **Redline** | FireEye Redline memory collector & compromise assessment | [🔗 Visit](https://tryhackme.com/room/redline) |
+| ⚙️ | **Basic Malware RE** | Disassembly basics, strings analysis & unpacking indicators | [🔗 Visit](https://tryhackme.com/room/basicmalwarere) |
 
 ---
 
 ## 💼 Recommended Hands-on Portfolio Projects
-1. **Memory Forensics Case Report:** Analyze a memory image using Volatility 3 plugins (`windows.pstree`, `windows.malfind`), extract the malicious payload, and write a forensic report.
-2. **Post-Mortem Disk Investigation:** Use Autopsy to reconstruct the exact timeline of a ransomware execution on a disk image using our [Incident Report Template](../templates/incident-report-template.md).
+1. **Digital Forensics Case Report (Case B4DM755):** Solve the B4DM755 case room and document your step-by-step forensic findings, artifact analysis, and conclusions.
+2. **Volatile Memory Analysis Report:** Analyze a memory dump using Volatility plugins, identify injected malicious code, and draft an executive report using our [Incident Report Template](../templates/incident-report-template.md).

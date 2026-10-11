@@ -18,7 +18,7 @@ A curated, comprehensive collection of **100% free TryHackMe rooms** organized i
 
 </div>
 
-> 🆓 **100% FREE Labs Guarantee:** Every single room listed across this repository is **completely free to access** on TryHackMe without requiring any VIP subscription or payment.
+> 🆓 **100% FREE Labs Guarantee:** Every single room listed across this repository is **verified to be 100% free to access** on TryHackMe without requiring any VIP subscription or payment.
 
 ---
 
@@ -32,14 +32,14 @@ Whether you are starting from zero or preparing for industry certifications like
 
 ...these curated free labs provide hands-on experience in:
 
-- ✅ Real-time alert triage & incident response playbooks  
-- ✅ SIEM & log analysis (Splunk, Sysmon, Windows Event Logs)  
-- ✅ Web application exploitation (OWASP Top 10, SQLi, Burp Suite)  
-- ✅ Network & infrastructure defense (Firewalls, Snort, Zeek)  
-- ✅ Memory & disk forensics (Volatility 3, Autopsy, Registry)  
-- ✅ Threat intelligence & ATT&CK mapping (MISP, OpenCTI, MITRE)  
-- ✅ Container & Kubernetes hardening (Docker, K8s, CI/CD)  
-- ✅ Active Directory exploitation (Kerberoasting, BloodHound, LOLBAS)
+- ✅ Real-time alert triage & incident response playbooks (SOC L1 Triage & IR Playbooks)  
+- ✅ SIEM & log analysis (Splunk, Sysmon, Windows Logging for SOC)  
+- ✅ Web application exploitation (OWASP Top 10, SQLi, Burp Suite, RootMe)  
+- ✅ Network & infrastructure defense (Traffic Analysis, OpenVAS, Snyk)  
+- ✅ Memory & disk forensics (Cold System Forensics, Linux Server Forensics, Autopsy)  
+- ✅ Threat intelligence & ATT&CK mapping (File & Hash Intel, Volt Typhoon, MITRE)  
+- ✅ Container & Kubernetes security (Docker, Virtualization, IaC)  
+- ✅ Active Directory exploitation (Attacktive Directory, AD CS, LOLBAS)
 
 ---
 
@@ -49,13 +49,13 @@ Choose your target career path to access its complete, dedicated free lab roadma
 
 | Icon | Career Role | Focus & Core Competencies | Full Roadmap |
 |:---:|---|---|:---:|
-| 🛡️ | **SOC & Security Analyst (L1/L2)** | SIEM (Splunk), Wireshark, Sysmon, Event Logs, Snort, Alert Triage | [👉 View Roadmap](./roles/01-soc-security-analyst.md) |
-| ⚔️ | **Penetration Tester / Ethical Hacker** | Nmap, Burp Suite, OWASP Top 10, SQLi, Metasploit, PrivEsc | [👉 View Roadmap](./roles/02-penetration-tester.md) |
-| 🛠️ | **Security Engineer & Architecture** | Network Defenses, Firewalls, YARA Rules, Cryptography, Hardening | [👉 View Roadmap](./roles/03-security-engineer.md) |
-| 🔍 | **DFIR (Forensics & Incident Response)** | Memory Forensics (Volatility), Autopsy, Registry Hives, Malware Triage | [👉 View Roadmap](./roles/04-dfir-analyst.md) |
-| 🧠 | **CTI (Threat Intel & Hunting)** | OSINT, MITRE ATT&CK, MISP, OpenCTI, Cyber Kill Chain | [👉 View Roadmap](./roles/05-cti-analyst.md) |
-| ☁️ | **Cloud Security & DevSecOps** | Virtualization, Kubernetes, Cluster Hardening, SAST/DAST, Secret Scanning | [👉 View Roadmap](./roles/06-cloud-devsecops.md) |
-| 🔴 | **Red Teamer / Adversary Simulator** | Active Directory Attacks, Kerberoasting, Atomic Red Team, LOLBAS | [👉 View Roadmap](./roles/07-red-teamer.md) |
+| 🛡️ | **SOC & Security Analyst (L1/L2)** | SIEM (Splunk), EDR, IR Playbooks, Windows & Linux Logging, Wireshark, Alert Triage | [👉 View Roadmap](./roles/01-soc-security-analyst.md) |
+| ⚔️ | **Penetration Tester / Ethical Hacker** | Nmap, Burp Suite, OWASP Top 10, SQLi, Metasploit, PrivEsc, RootMe, Ignite | [👉 View Roadmap](./roles/02-penetration-tester.md) |
+| 🛠️ | **Security Engineer & Architecture** | Network Defenses, OpenVAS, Cryptography, Snyk SAST, IaC Terraform Security | [👉 View Roadmap](./roles/03-security-engineer.md) |
+| 🔍 | **DFIR (Forensics & Incident Response)** | Cold System Forensics, Autopsy, Linux Forensics, Volatility, Case B4DM755 | [👉 View Roadmap](./roles/04-dfir-analyst.md) |
+| 🧠 | **CTI (Threat Intel & Hunting)** | OSINT, MITRE ATT&CK, Volt Typhoon APT, Threat Hunting, Unified Kill Chain | [👉 View Roadmap](./roles/05-cti-analyst.md) |
+| ☁️ | **Cloud Security & DevSecOps** | Cloud Fundamentals, Docker, Kubernetes, IaC, Snyk Code, Secure SDLC | [👉 View Roadmap](./roles/06-cloud-devsecops.md) |
+| 🔴 | **Red Teamer / Adversary Simulator** | Active Directory Basics, Attacktive Directory, AD CS Certificates, LOLBAS | [👉 View Roadmap](./roles/07-red-teamer.md) |
 
 ---
 
@@ -70,10 +70,11 @@ Choose your target career path to access its complete, dedicated free lab roadma
 | 🖥️ | **Introduction to EDR** | Fundamentals of Endpoint Detection and Response | [🔗 Visit](https://tryhackme.com/room/introductiontoedrs) |
 | 📘 | **IR Playbooks** | Incident response handling playbooks & triage workflows | [🔗 Visit](https://tryhackme.com/room/irplaybooks) |
 | 🧠 | **Splunk: Exploring SPL** | Querying logs, SPL queries, and filtering security events | [🔗 Visit](https://tryhackme.com/room/splunkexploringspl) |
-| 🪵 | **Windows Log Analysis** | Windows logging and event ID analysis for SOC | [🔗 Visit](https://tryhackme.com/room/windowsloggingforsoc) |
-| 📂 | **Windows Threat Detection** | Detecting malicious behaviors in Windows environments | [🔗 Visit](https://tryhackme.com/room/windowsthreatdetection1) |
+| 📈 | **Splunk 101** | Splunk core interface, search syntax & dashboard setup | [🔗 Visit](https://tryhackme.com/room/splunk101) |
+| 🎯 | **SOC L1 Alert Triage** | Investigating true vs false positive security alerts | [🔗 Visit](https://tryhackme.com/room/socl1alerttriage) |
+| 🪵 | **Windows Logging for SOC** | Windows security logs, Event IDs (4624, 4625, 7045) & auditing | [🔗 Visit](https://tryhackme.com/room/windowsloggingforsoc) |
+| 🐧 | **Linux Logging for SOC** | Investigating syslog, auth.log, wtmp & Linux bash history | [🔗 Visit](https://tryhackme.com/room/linuxloggingforsoc) |
 | 🦈 | **Wireshark: The Basics** | Packet capture analysis, PCAP filter rules, & HTTP/DNS inspect | [🔗 Visit](https://tryhackme.com/room/wiresharkthebasics) |
-| 🔍 | **Sysmon** | System Monitor telemetry, process creation & network monitoring | [🔗 Visit](https://tryhackme.com/room/sysmon) |
 
 *👉 [Explore all 19 Free SOC Labs in the dedicated guide](./roles/01-soc-security-analyst.md)*
 
@@ -89,26 +90,29 @@ Choose your target career path to access its complete, dedicated free lab roadma
 | 💉 | **SQL Injection** | In-band, blind, error-based SQLi & authentication bypass | [🔗 Visit](https://tryhackme.com/room/sqlinjection) |
 | 💥 | **Metasploit: Introduction** | Msfconsole navigation, auxiliary scanners, payloads & listeners | [🔗 Visit](https://tryhackme.com/room/metasploitintro) |
 | 🐧 | **Linux Privilege Escalation** | SUID binaries, cron jobs, sudo misconfigurations & capabilities | [🔗 Visit](https://tryhackme.com/room/linprivesc) |
-| 🪟 | **Windows Privilege Escalation** | Unquoted service paths, token manipulation & automated scripts | [🔗 Visit](https://tryhackme.com/room/windowsprivilegeescalation) |
 | 🥒 | **Pickle Rick** | Web enumeration, command injection & sudo privesc CTF | [🔗 Visit](https://tryhackme.com/room/picklerick) |
+| 🚩 | **RootMe** | Web bypass, reverse shell & SUID privilege escalation CTF | [🔗 Visit](https://tryhackme.com/room/rrootme) |
 | 🔥 | **Ignite** | Fuel CMS vulnerability exploitation to root shell CTF | [🔗 Visit](https://tryhackme.com/room/ignite) |
+| 🚔 | **Brooklyn Nine Nine** | Steganography, Hydra SSH brute-force & sudo privesc CTF | [🔗 Visit](https://tryhackme.com/room/brooklynninenine) |
 
-*👉 [Explore all 18 Free PenTesting Labs in the dedicated guide](./roles/02-penetration-tester.md)*
+*👉 [Explore all 20 Free PenTesting Labs in the dedicated guide](./roles/02-penetration-tester.md)*
 
 ---
 
 ### 🔬 Top Free DFIR & Forensics Labs
 | Icon | Title | Subtitle | Link |
 |:---:|---|---|:---:|
-| 🔬 | **Intro to Digital Forensics** | Chain of custody, forensic imaging & legal investigation basics | [🔗 Visit](https://tryhackme.com/room/introdigitalforensics) |
-| 🧠 | **Volatility** | RAM dump extraction, process trees & network socket recovery | [🔗 Visit](https://tryhackme.com/room/volatility) |
-| 🔎 | **Autopsy** | Disk image ingestion, keyword search & timeline reconstruction | [🔗 Visit](https://tryhackme.com/room/autopsy) |
-| 🪟 | **Windows Forensics 1** | Registry hives, SAM, SYSTEM, SOFTWARE, USB device history | [🔗 Visit](https://tryhackme.com/room/windowsforensics1) |
-| 🗂️ | **Windows Forensics 2** | Prefetch files, Shimcache, Amcache, Jump Lists & Shellbags | [🔗 Visit](https://tryhackme.com/room/windowsforensics2) |
+| 🔬 | **Intro to Cold System Forensics** | Fundamentals of dead-box analysis, disk imaging & acquisition | [🔗 Visit](https://tryhackme.com/room/introtocoldsystemforensics) |
+| 🗃️ | **Forensics** | File headers, magic bytes, EXIF metadata & steganography | [🔗 Visit](https://tryhackme.com/room/forensics) |
+| 🧠 | **Memory Forensics** | Fundamentals of volatile RAM analysis & process dumping | [🔗 Visit](https://tryhackme.com/room/memoryforensics) |
+| ⚡ | **Volatility** | Investigating RAM captures, process trees & network sockets | [🔗 Visit](https://tryhackme.com/room/bpvolatility) |
+| 🔎 | **Disk Analysis & Autopsy** | Ingesting disk images, keyword indexing & artifact analysis | [🔗 Visit](https://tryhackme.com/room/autopsy2ze0) |
+| 🐧 | **Linux Server Forensics** | Investigating compromised Linux systems, auth logs & persistence | [🔗 Visit](https://tryhackme.com/room/linuxserverforensics) |
+| 🪟 | **Windows Applications Forensics** | Event logs, application execution artifacts & database triage | [🔗 Visit](https://tryhackme.com/room/windowsapplications) |
+| 🚨 | **Digital Forensics Case B4DM755** | Hands-on DFIR investigation case: solve real forensic questions | [🔗 Visit](https://tryhackme.com/room/caseb4dm755) |
 | 🦠 | **Intro to Malware Analysis** | Static vs Dynamic analysis, file hashing, strings & VirusTotal | [🔗 Visit](https://tryhackme.com/room/intromalwareanalysis) |
-| ⚙️ | **RE101 - Intro to Reverse Eng** | Assembly language, x86 architecture & Ghidra disassembly | [🔗 Visit](https://tryhackme.com/room/re101) |
 
-*👉 [Explore all 10 Free DFIR Labs in the dedicated guide](./roles/04-dfir-analyst.md)*
+*👉 [Explore all 12 Free DFIR Labs in the dedicated guide](./roles/04-dfir-analyst.md)*
 
 ---
 
@@ -117,44 +121,48 @@ Choose your target career path to access its complete, dedicated free lab roadma
 |:---:|---|---|:---:|
 | 🕵️ | **OSINT** | Google dorking, WHOIS, DNS records & social media intelligence | [🔗 Visit](https://tryhackme.com/room/osint) |
 | ⛓️ | **Cyber Kill Chain** | Lockheed Martin 7-stage attack lifecycle model & defenses | [🔗 Visit](https://tryhackme.com/room/cyberkillchain) |
+| 🔗 | **Unified Kill Chain** | 18-phase advanced cyber attack lifecycle framework | [🔗 Visit](https://tryhackme.com/room/unifiedkillchain) |
 | 🎯 | **MITRE ATT&CK** | Enterprise Matrix, Tactics, Techniques & Procedures (TTPs) | [🔗 Visit](https://tryhackme.com/room/mitre) |
 | 💡 | **Intro to Cyber Threat Intel** | Intelligence cycle, strategic/tactical intel & threat feeds | [🔗 Visit](https://tryhackme.com/room/introtocyberthreatintel) |
 | 🗂️ | **File and Hash Threat Intel** | Analyzing malicious hashes, VirusTotal enrichment & IOCs | [🔗 Visit](https://tryhackme.com/room/fileandhashthreatintel) |
-| 🤝 | **MISP** | Malware Information Sharing Platform, events & IOC distribution | [🔗 Visit](https://tryhackme.com/room/misp) |
-| 🕸️ | **OpenCTI** | Open Source Threat Intelligence platform & knowledge graphs | [🔗 Visit](https://tryhackme.com/room/opencti) |
+| 🏹 | **Threat Hunting: Introduction** | Threat hunting methodologies, hypotheses & data sources | [🔗 Visit](https://tryhackme.com/room/introductiontothreathunting) |
 | ⚔️ | **APT Detection (Volt Typhoon)** | Investigating real-world adversary campaign artifacts | [🔗 Visit](https://tryhackme.com/room/volttyphoon) |
 
-*👉 [Explore all 11 Free CTI Labs in the dedicated guide](./roles/05-cti-analyst.md)*
+*👉 [Explore all 12 Free CTI Labs in the dedicated guide](./roles/05-cti-analyst.md)*
 
 ---
 
 ### ☁️ Top Free Cloud Security & DevSecOps Labs
 | Icon | Title | Subtitle | Link |
 |:---:|---|---|:---:|
-| 🐳 | **Virtualization and Containers** | Cloud service models, Docker isolation & container concepts | [🔗 Visit](https://tryhackme.com/room/virtualizationandcontainers) |
-| 🏗️ | **Intro to IaC** | Infrastructure as Code basics, Terraform & template security | [🔗 Visit](https://tryhackme.com/room/introtoiac) |
-| 🛡️ | **Cluster Hardening** | Securing network policies, Kubelet, and API server controls | [🔗 Visit](https://tryhackme.com/room/clusterhardening) |
-| ⛵ | **Intro to Kubernetes** | Pods, Deployments, RBAC security & API server architecture | [🔗 Visit](https://tryhackme.com/room/introkubernetes) |
-| 🔄 | **Intro to DevSecOps** | Integrating security into DevOps culture, SDLC & pipelines | [🔗 Visit](https://tryhackme.com/room/introdevsecops) |
-| 🔍 | **Source Code Analysis** | Static Application Security Testing (SAST) & code auditing | [🔗 Visit](https://tryhackme.com/room/sourcecodeanalysis) |
-| 🔑 | **Secret Scanning** | Detecting hardcoded API keys, tokens & credentials in Git | [🔗 Visit](https://tryhackme.com/room/secretscanning) |
+| ☁️ | **Cloud Computing Fundamentals** | Cloud service models (IaaS, PaaS, SaaS), cloud architecture | [🔗 Visit](https://tryhackme.com/room/cloudcomputingfundamentals) |
+| ⚠️ | **Cloud Security Pitfalls** | Real-world cloud misconfigurations, IAM leaks & storage flaws | [🔗 Visit](https://tryhackme.com/room/cloudsecuritypitfalls) |
+| 🐳 | **Intro to Docker** | Docker containers, daemon architecture, Dockerfiles & images | [🔗 Visit](https://tryhackme.com/room/introtodockerk8pdqk) |
+| 📦 | **Virtualization and Containers** | Hypervisors vs containers, namespace isolation & cgroups | [🔗 Visit](https://tryhackme.com/room/virtualizationandcontainers) |
+| ☸️ | **Kubernetes Chall TDI 2020** | Hands-on challenge exploring Kubernetes cluster attack surface | [🔗 Visit](https://tryhackme.com/room/kuberneteschalltdi2020) |
+| 🏗️ | **Intro to IaC** | Infrastructure as Code security, Terraform syntax & controls | [🔗 Visit](https://tryhackme.com/room/introtoiac) |
+| 🔄 | **SDLC** | Software Development Life Cycle, Threat Modeling & SecOps | [🔗 Visit](https://tryhackme.com/room/sdlc) |
+| 📦 | **Snyk Open Source** | Managing third-party software dependencies & package CVEs | [🔗 Visit](https://tryhackme.com/room/snykopensource) |
+| 🔍 | **Snyk Code** | Static Application Security Testing (SAST) in development | [🔗 Visit](https://tryhackme.com/room/snykcode) |
 
-*👉 [Explore all 9 Free Cloud/DevSecOps Labs in the dedicated guide](./roles/06-cloud-devsecops.md)*
+*👉 [Explore all 10 Free Cloud/DevSecOps Labs in the dedicated guide](./roles/06-cloud-devsecops.md)*
 
 ---
 
 ### 🔴 Top Free Red Teaming & Active Directory Labs
 | Icon | Title | Subtitle | Link |
 |:---:|---|---|:---:|
-| 🏢 | **Active Directory Basics** | Domain Controllers, LDAP, Kerberos authentication & GPOs | [🔗 Visit](https://tryhackme.com/room/activedirectorybasics) |
-| 🏹 | **Attacking Active Directory** | Impacket, Kerberoasting, AS-REP Roasting & BloodHound | [🔗 Visit](https://tryhackme.com/room/attacktivedirectory) |
+| 🏢 | **Active Directory Basics** | Domain Controllers, LDAP, Kerberos authentication & GPOs | [🔗 Visit](https://tryhackme.com/room/winadbasics) |
+| 🔍 | **AD: Basic Enumeration** | Enumerating users, groups, computers & domain trusts | [🔗 Visit](https://tryhackme.com/room/adbasicenumeration) |
+| 🏹 | **Attacktive Directory** | Impacket, Kerberoasting, AS-REP Roasting & BloodHound | [🔗 Visit](https://tryhackme.com/room/attacktivedirectory) |
+| 💥 | **Breaching Active Directory** | Initial access, credential spraying & domain compromise | [🔗 Visit](https://tryhackme.com/room/breachingad) |
+| 📜 | **AD Certificate Templates** | Abusing Active Directory Certificate Services (AD CS / ESC1) | [🔗 Visit](https://tryhackme.com/room/adcertificatetemplates) |
+| 🛡️ | **Active Directory Hardening** | Defensive mitigations, Tiered Admin Models & LAPS | [🔗 Visit](https://tryhackme.com/room/activedirectoryening) |
+| 👁️ | **Monitoring Active Directory** | Detecting pass-the-hash, ticket abuse & malicious queries | [🔗 Visit](https://tryhackme.com/room/monitoringactivedirectory) |
 | 🔑 | **Post Exploitation Basics** | Credential dumping, persistence creation & hash harvesting | [🔗 Visit](https://tryhackme.com/room/postexploitationbasics) |
-| 🎯 | **Red Team Fundamentals** | Adversary emulation concepts, engagement scoping & OPSEC | [🔗 Visit](https://tryhackme.com/room/redteamfundamentals) |
-| ⚛️ | **Atomic Red Team** | Emulating adversary TTPs to test defensive telemetry | [🔗 Visit](https://tryhackme.com/room/atomicredteam) |
 | 🪓 | **Living Off the Land** | Exploiting native Windows binaries (Certutil, MSBuild, LOLBAS) | [🔗 Visit](https://tryhackme.com/room/livingofftheland) |
-| 🔀 | **Detecting AD Lateral Movement** | Lateral movement techniques (PsExec, WMI, WinRM) & detection | [🔗 Visit](https://tryhackme.com/room/detectingadlateralmovement) |
 
-*👉 [Explore all 9 Free Red Team Labs in the dedicated guide](./roles/07-red-teamer.md)*
+*👉 [Explore all 11 Free Red Team Labs in the dedicated guide](./roles/07-red-teamer.md)*
 
 ---
 

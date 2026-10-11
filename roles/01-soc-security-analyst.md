@@ -16,11 +16,11 @@ Whether you're a beginner or preparing for certifications like:
 
 ...these labs will help you develop skills in:
 
-- ✅ Alert triage & investigation  
-- ✅ Incident playbook response  
-- ✅ Threat hunting & IOC detection  
-- ✅ Windows event log analysis (Sysmon & Event Viewer)  
-- ✅ APT detection & threat attribution  
+- ✅ Alert triage & investigation (SOC L1 Alert Triage)  
+- ✅ Incident playbook response & reporting (IR Playbooks)  
+- ✅ Threat hunting & IOC detection (Threat Intelligence for SOC)  
+- ✅ Windows & Linux log analysis (Sysmon, Event Viewer, Auth logs)  
+- ✅ APT detection & threat attribution (Volt Typhoon)  
 - ✅ SOC tool familiarity (Splunk, Wireshark, Snort, Zeek)
 
 ---
@@ -40,18 +40,18 @@ Whether you're a beginner or preparing for certifications like:
 | 📘 | **IR Playbooks** | Incident response handling playbooks and triage workflows | [🔗 Visit](https://tryhackme.com/room/irplaybooks) |
 | 🗂️ | **File and Hash Threat Intel** | Analyzing malicious file hashes and threat intelligence | [🔗 Visit](https://tryhackme.com/room/fileandhashthreatintel) |
 | 🧠 | **Splunk: Exploring SPL** | Querying logs, SPL queries, and filtering security events | [🔗 Visit](https://tryhackme.com/room/splunkexploringspl) |
-| 🧠 | **SOC Analyst Basics** | SOC L1 alert reporting & triage methodologies | [🔗 Visit](https://tryhackme.com/room/socl1alertreporting) |
-| 🕵️ | **Threat Hunting Without Logs** | Logless threat hunting on compromised systems | [🔗 Visit](https://tryhackme.com/room/loglesshunt) |
-| ⚔️ | **APT Detection (Volt Typhoon)** | Investigating real-world adversary campaign artifacts | [🔗 Visit](https://tryhackme.com/room/volttyphoon) |
-| 🪵 | **Windows Log Analysis** | Windows logging and event ID analysis for SOC | [🔗 Visit](https://tryhackme.com/room/windowsloggingforsoc) |
+| 📈 | **Splunk 101** | Splunk core interface, search syntax & dashboard setup | [🔗 Visit](https://tryhackme.com/room/splunk101) |
+| 📝 | **SOC L1 Alert Reporting** | SOC Analyst incident escalation & ticketing documentation | [🔗 Visit](https://tryhackme.com/room/socl1alertreporting) |
+| 🎯 | **SOC L1 Alert Triage** | Investigating true vs false positive security alerts | [🔗 Visit](https://tryhackme.com/room/socl1alerttriage) |
+| 🪵 | **Windows Logging for SOC** | Windows security logs, Event IDs (4624, 4625, 7045) & auditing | [🔗 Visit](https://tryhackme.com/room/windowsloggingforsoc) |
+| 🐧 | **Linux Logging for SOC** | Investigating syslog, auth.log, wtmp & Linux bash history | [🔗 Visit](https://tryhackme.com/room/linuxloggingforsoc) |
 | 📂 | **Windows Threat Detection** | Detecting malicious behaviors in Windows environments | [🔗 Visit](https://tryhackme.com/room/windowsthreatdetection1) |
+| 🕵️ | **Threat Hunting Without Logs** | Logless threat hunting techniques on compromised systems | [🔗 Visit](https://tryhackme.com/room/loglesshunt) |
+| ⚔️ | **APT Detection (Volt Typhoon)** | Investigating real-world adversary campaign artifacts | [🔗 Visit](https://tryhackme.com/room/volttyphoon) |
 | 🦈 | **Wireshark: The Basics** | Packet capture analysis, PCAP filter rules, & HTTP/DNS inspect | [🔗 Visit](https://tryhackme.com/room/wiresharkthebasics) |
-| 🚨 | **Snort** | IDS/IPS rule writing and network signature matching | [🔗 Visit](https://tryhackme.com/room/snort) |
-| 🌐 | **Zeek** | Network monitoring framework & traffic log analysis | [🔗 Visit](https://tryhackme.com/room/zeekbro) |
-| 🔍 | **Sysmon** | System Monitor telemetry, process creation & network monitoring | [🔗 Visit](https://tryhackme.com/room/sysmon) |
-| 📧 | **Phishing Emails 101** | Email header analysis, SPF/DKIM/DMARC & attachment triage | [🔗 Visit](https://tryhackme.com/room/phishingemails101) |
-| 📝 | **Incident Response Methodology** | PICERL framework (Preparation, Identification, Containment...) | [🔗 Visit](https://tryhackme.com/room/incidentresponsemethodology) |
-| 🕵️ | **Investigat3d** | Hands-on Windows triage, compromised machine investigation | [🔗 Visit](https://tryhackme.com/room/investigat3d) |
+| 🌐 | **Network Traffic Basics** | Analyzing IP headers, TCP handshake & packet flows | [🔗 Visit](https://tryhackme.com/room/networktrafficbasics) |
+| 📧 | **ParrotPost: Phishing Analysis** | Practical phishing email header, attachment & URL analysis | [🔗 Visit](https://tryhackme.com/room/parrotpost) |
+| 🧠 | **Threat Intelligence for SOC** | Operationalizing threat intel feeds in defensive monitoring | [🔗 Visit](https://tryhackme.com/room/threatintelligenceforsoc) |
 
 ---
 

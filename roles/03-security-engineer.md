@@ -15,13 +15,13 @@ Whether you're a beginner or preparing for certifications like:
 
 ...these labs will help you develop skills in:
 
-- ✅ Network defense architecture & DMZ design  
-- ✅ Firewall configuration (iptables & stateful inspection)  
-- ✅ Writing custom YARA detection rules  
-- ✅ Snort IDS signature engineering  
-- ✅ Cryptographic protocols, PKI & TLS implementations  
-- ✅ Vulnerability scanning & remediation lifecycle  
-- ✅ Linux operating system hardening
+- ✅ Security engineering fundamentals & enterprise posture  
+- ✅ Network traffic defense & packet inspection  
+- ✅ DNS & HTTP protocol hardening  
+- ✅ Applied cryptography (AES, RSA, PKI, Ciphers)  
+- ✅ Vulnerability scanning with OpenVAS  
+- ✅ Developer tooling & supply chain security (Snyk)  
+- ✅ Infrastructure as Code (IaC) security auditing
 
 ---
 
@@ -33,20 +33,21 @@ Whether you're a beginner or preparing for certifications like:
 
 | Icon | Title | Subtitle | Link |
 |:---:|---|---|:---:|
-| 🛡️ | **Defensive Security Intro** | Introduction to defensive concepts, SIEM, and SOC operations | [🔗 Visit](https://tryhackme.com/room/defensivesecurityintroqW) |
-| 🏰 | **Network Defenses** | Firewalls, IDS/IPS placement, and network segregation | [🔗 Visit](https://tryhackme.com/room/networkdefenses) |
-| 🧱 | **Firewalls** | Packet filtering, stateful inspection, and iptables rules | [🔗 Visit](https://tryhackme.com/room/firewalls) |
-| 🌐 | **DNS in Detail** | DNS architecture, record types, DNSSEC & security threats | [🔗 Visit](https://tryhackme.com/room/dnsindetail) |
-| 📝 | **YARA** | Malware signature creation, YARA rule syntax & pattern matching | [🔗 Visit](https://tryhackme.com/room/yara) |
-| 🚨 | **Snort Rule Engineering** | Writing custom Snort IDS signatures for exploit detection | [🔗 Visit](https://tryhackme.com/room/snort) |
-| 🔑 | **Intro to Cryptography** | Hashing algorithms, AES/RSA encryption, PKI & TLS certificates | [🔗 Visit](https://tryhackme.com/room/cryptographyintro) |
-| 🔒 | **Encryption - Crypto 101** | Symmetric vs asymmetric key exchange & RSA math basics | [🔗 Visit](https://tryhackme.com/room/crypto101) |
-| 📋 | **Vulnerability Management** | Scanning lifecycle, CVSS scoring, and patching strategy | [🔗 Visit](https://tryhackme.com/room/vulnerabilitymanagement) |
-| 🔎 | **Nessus** | Vulnerability scanning, policy creation, and audit reports | [🔗 Visit](https://tryhackme.com/room/nessus) |
-| 🐧 | **Linux Security & Hardening** | SSH hardening, file permissions, PAM & SELinux basics | [🔗 Visit](https://tryhackme.com/room/linuxsecurity) |
+| 🛡️ | **Security Engineer Intro** | Security architecture fundamentals, enterprise controls & roles | [🔗 Visit](https://tryhackme.com/room/securityengineerintro) |
+| 🏰 | **Defensive Security Intro** | Introducing defensive security, SIEM & SOC operational defense | [🔗 Visit](https://tryhackme.com/room/defensivesecurityintroqW) |
+| 🚦 | **Network Traffic Basics** | Network protocols, packet inspection & perimeter architecture | [🔗 Visit](https://tryhackme.com/room/networktrafficbasics) |
+| 🛡️ | **Network Security Essentials** | Defensive controls, firewall segregation & network hardening | [🔗 Visit](https://tryhackme.com/room/networksecurityessentials) |
+| 🌐 | **DNS in Detail** | DNS architecture, record types, DNSSEC & DNS tunneling threats | [🔗 Visit](https://tryhackme.com/room/dnsindetail) |
+| 🌍 | **HTTP in Detail** | HTTP request/response flow, headers & security directives | [🔗 Visit](https://tryhackme.com/room/httpindetail) |
+| 🔑 | **Cryptography Basics** | Cryptographic principles, symmetric/asymmetric algorithms & hashing | [🔗 Visit](https://tryhackme.com/room/cryptographybasics) |
+| 🔒 | **Encryption - Crypto 101** | Practical ciphers, key exchanges, RSA & TLS mathematical foundations | [🔗 Visit](https://tryhackme.com/room/encryptioncrypto101) |
+| 🔎 | **OpenVAS** | Open-source vulnerability scanner setup, scanning & remediation | [🔗 Visit](https://tryhackme.com/room/openvas) |
+| 📦 | **Snyk Open Source** | Managing third-party package vulnerabilities & supply chain risk | [🔗 Visit](https://tryhackme.com/room/snykopensource) |
+| 💻 | **Snyk Code** | Static Application Security Testing (SAST) for engineers | [🔗 Visit](https://tryhackme.com/room/snykcode) |
+| 🏗️ | **Intro to IaC** | Securing Infrastructure as Code templates (Terraform/Ansible) | [🔗 Visit](https://tryhackme.com/room/introtoiac) |
 
 ---
 
 ## 💼 Recommended Hands-on Portfolio Projects
-1. **Custom Detection Rule Repository:** Build an open-source GitHub repo containing custom YARA signatures and Snort rules for emerging CVEs.
-2. **Defensive Network Topology Blueprint:** Design a zero-trust / defense-in-depth architecture diagram incorporating WAF, DMZ, and internal firewall segments.
+1. **OpenVAS Vulnerability Assessment Report:** Run an OpenVAS scan against a target machine, generate a prioritized vulnerability remediation plan, and publish it on GitHub.
+2. **Defensive Architecture Blueprint:** Design an enterprise DMZ network diagram incorporating dual firewalls, reverse proxy, and SIEM log collectors.

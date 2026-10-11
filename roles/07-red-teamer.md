@@ -15,13 +15,13 @@ Whether you're a beginner or preparing for certifications like:
 
 ...these labs will help you develop skills in:
 
-- ✅ Active Directory structure, Domain Controllers & GPOs  
-- ✅ Kerberos attack chains (Kerberoasting, AS-REP Roasting)  
-- ✅ Post-exploitation credential dumping & privilege persistence  
-- ✅ Red team engagement methodology & OPSEC rules  
-- ✅ TTP emulation using Atomic Red Team framework  
+- ✅ Active Directory architecture, Domain Controllers & Kerberos  
+- ✅ AD enumeration using PowerView & BloodHound  
+- ✅ Kerberoasting, AS-REP Roasting & credential extraction  
+- ✅ Active Directory Certificate Services (AD CS) attack vectors  
+- ✅ Post-exploitation hash dumping & persistence  
 - ✅ Living Off the Land Binaries and Scripts (LOLBAS)  
-- ✅ Internal lateral movement techniques & SMB exploitation
+- ✅ Adversary threat emulation & stealthy reconnaissance
 
 ---
 
@@ -33,18 +33,20 @@ Whether you're a beginner or preparing for certifications like:
 
 | Icon | Title | Subtitle | Link |
 |:---:|---|---|:---:|
-| 🏢 | **Active Directory Basics** | Domain Controllers, LDAP, Kerberos authentication & GPOs | [🔗 Visit](https://tryhackme.com/room/activedirectorybasics) |
-| 🏹 | **Attacking Active Directory** | Impacket, Kerberoasting, AS-REP Roasting & BloodHound | [🔗 Visit](https://tryhackme.com/room/attacktivedirectory) |
+| 🏢 | **Active Directory Basics** | Domain Controllers, LDAP, Kerberos authentication & GPOs | [🔗 Visit](https://tryhackme.com/room/winadbasics) |
+| 🔍 | **AD: Basic Enumeration** | Enumerating users, groups, computers & domain trusts | [🔗 Visit](https://tryhackme.com/room/adbasicenumeration) |
+| 🏹 | **Attacktive Directory** | Impacket, Kerberoasting, AS-REP Roasting & BloodHound | [🔗 Visit](https://tryhackme.com/room/attacktivedirectory) |
+| 💥 | **Breaching Active Directory** | Initial access, credential spraying & domain compromise | [🔗 Visit](https://tryhackme.com/room/breachingad) |
+| 📜 | **AD Certificate Templates** | Abusing Active Directory Certificate Services (AD CS / ESC1) | [🔗 Visit](https://tryhackme.com/room/adcertificatetemplates) |
+| 🛡️ | **Active Directory Hardening** | Defensive mitigations, Tiered Admin Models & LAPS | [🔗 Visit](https://tryhackme.com/room/activedirectoryening) |
+| 👁️ | **Monitoring Active Directory** | Detecting pass-the-hash, ticket abuse & malicious queries | [🔗 Visit](https://tryhackme.com/room/monitoringactivedirectory) |
 | 🔑 | **Post Exploitation Basics** | Credential dumping, persistence creation & hash harvesting | [🔗 Visit](https://tryhackme.com/room/postexploitationbasics) |
-| 🎯 | **Red Team Fundamentals** | Adversary emulation concepts, engagement scoping & OPSEC | [🔗 Visit](https://tryhackme.com/room/redteamfundamentals) |
+| 🎯 | **Intro to Threat Emulation** | Adversary emulation concepts, planning & TTP mapping | [🔗 Visit](https://tryhackme.com/room/threatemulationintro) |
 | 🕵️ | **Red Team Recon** | Stealthy reconnaissance, domain fronting & asset identification | [🔗 Visit](https://tryhackme.com/room/redteamrecon) |
-| 📜 | **Red Team Engagements** | Engagement documentation, rules of engagement & reporting | [🔗 Visit](https://tryhackme.com/room/redteamengagements) |
-| ⚛️ | **Atomic Red Team** | Emulating adversary TTPs to test defensive telemetry | [🔗 Visit](https://tryhackme.com/room/atomicredteam) |
 | 🪓 | **Living Off the Land** | Exploiting native Windows binaries (Certutil, MSBuild, LOLBAS) | [🔗 Visit](https://tryhackme.com/room/livingofftheland) |
-| 🔀 | **Detecting AD Lateral Movement** | Lateral movement techniques (PsExec, WMI, WinRM) & detection | [🔗 Visit](https://tryhackme.com/room/detectingadlateralmovement) |
 
 ---
 
 ## 💼 Recommended Hands-on Portfolio Projects
-1. **Active Directory Kerberoasting Attack Lab:** Build a local AD lab environment or document the AttacktiveDirectory room compromise, including BloodHound path analysis and Kerberos ticket cracking.
-2. **Atomic Red Team Execution & Detection Matrix:** Emulate 5 MITRE ATT&CK techniques using Atomic Red Team and document both the execution commands and the resulting Sysmon detection events.
+1. **Active Directory Kerberoasting Attack Lab:** Document the AttacktiveDirectory room compromise, including BloodHound path analysis and Kerberos ticket cracking.
+2. **AD CS Privilege Escalation Writeup:** Create an in-depth writeup detailing how vulnerable Certificate Templates (ESC1) can lead to complete Domain Admin compromise.

@@ -20,8 +20,8 @@ Whether you're a beginner or preparing for certifications like:
 - ✅ Intercepting proxies & request manipulation (Burp Suite)  
 - ✅ Web application exploitation (SQLi, XSS, File Uploads)  
 - ✅ Metasploit framework exploitation & meterpreter  
-- ✅ Linux & Windows privilege escalation techniques  
-- ✅ Real-world CTF challenge methodology & root flags
+- ✅ Linux privilege escalation techniques (SUID, Sudo, Cron)  
+- ✅ Real-world CTF challenge methodology & root flags (Pickle Rick, RootMe, Ignite)
 
 ---
 
@@ -47,13 +47,15 @@ Whether you're a beginner or preparing for certifications like:
 | 📤 | **Upload Vulnerabilities** | Bypassing file upload restrictions for Remote Code Execution (RCE) | [🔗 Visit](https://tryhackme.com/room/uploadvulns) |
 | 💥 | **Metasploit: Introduction** | Msfconsole navigation, auxiliary scanners, payloads & listeners | [🔗 Visit](https://tryhackme.com/room/metasploitintro) |
 | 🐧 | **Linux Privilege Escalation** | SUID binaries, cron jobs, sudo misconfigurations & capabilities | [🔗 Visit](https://tryhackme.com/room/linprivesc) |
-| 🪟 | **Windows Privilege Escalation** | Unquoted service paths, token manipulation & automated scripts | [🔗 Visit](https://tryhackme.com/room/windowsprivilegeescalation) |
+| 💻 | **Basic Pentesting** | Enumerating web targets, brute-forcing passwords & privilege escalation | [🔗 Visit](https://tryhackme.com/room/basicpentestingjt) |
 | 🥒 | **Pickle Rick** | Web enumeration, command injection & sudo privesc CTF | [🔗 Visit](https://tryhackme.com/room/picklerick) |
+| 🚩 | **RootMe** | Web bypass, reverse shell & SUID privilege escalation CTF | [🔗 Visit](https://tryhackme.com/room/rrootme) |
+| 🎯 | **Simple CTF** | Vulnerability scanning, CMS exploitation & privilege escalation | [🔗 Visit](https://tryhackme.com/room/easyctf) |
 | 🔥 | **Ignite** | Fuel CMS vulnerability exploitation to root shell CTF | [🔗 Visit](https://tryhackme.com/room/ignite) |
-| 🚔 | **Brooklyn 99** | Steganography, SSH brute-forcing & Linux privilege escalation | [🔗 Visit](https://tryhackme.com/room/brooklyn99) |
+| 🚔 | **Brooklyn Nine Nine** | Steganography, Hydra SSH brute-force & sudo privesc CTF | [🔗 Visit](https://tryhackme.com/room/brooklynninenine) |
 
 ---
 
 ## 💼 Recommended Hands-on Portfolio Projects
-1. **CTF Walkthrough Series:** Complete *Pickle Rick* or *Ignite* and write a comprehensive writeup using our [Lab Writeup Template](../templates/thm-lab-writeup-template.md).
+1. **CTF Walkthrough Series:** Complete *Pickle Rick*, *RootMe*, or *Ignite* and write a comprehensive writeup using our [Lab Writeup Template](../templates/thm-lab-writeup-template.md).
 2. **Professional Penetration Test Report:** Document web and network vulnerabilities, impact scores, and mitigation advice using our [Pentest Report Template](../templates/pentest-report-template.md).

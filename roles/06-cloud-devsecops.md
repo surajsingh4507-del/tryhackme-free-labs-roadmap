@@ -1,6 +1,6 @@
 # ☁️ Free TryHackMe Cloud & DevSecOps Labs – Containers, Kubernetes & CI/CD Security Practice
 
-A curated list of **free TryHackMe rooms** focused entirely on **Cloud Security** and **DevSecOps** training. Ideal for **Cloud Security Engineers**, **DevSecOps Specialists**, and **Cloud Architects**, these hands-on labs cover core skills like **Docker container security**, **Kubernetes hardening**, **Infrastructure as Code (IaC)**, and **secure CI/CD pipelines**.
+A curated list of **free TryHackMe rooms** focused entirely on **Cloud Security** and **DevSecOps** training. Ideal for **Cloud Security Engineers**, **DevSecOps Specialists**, and **Cloud Architects**, these hands-on labs cover core skills like **Docker container security**, **Kubernetes fundamentals**, **Infrastructure as Code (IaC)**, and **secure CI/CD pipelines**.
 
 ---
 
@@ -16,12 +16,13 @@ Whether you're a beginner or preparing for certifications like:
 ...these labs will help you develop skills in:
 
 - ✅ Cloud infrastructure models & shared responsibility  
+- ✅ Identifying cloud architecture misconfigurations & pitfalls  
+- ✅ Docker container internals & isolation mechanics  
+- ✅ Kubernetes cluster challenges & pod security  
 - ✅ Infrastructure as Code (IaC) security auditing (Terraform)  
-- ✅ Docker container security & breakout prevention  
-- ✅ Kubernetes architecture & cluster hardening  
-- ✅ DevSecOps culture & "Shift Left" methodologies  
-- ✅ Static Application Security Testing (SAST) in CI/CD  
-- ✅ Automated secret scanning & credential leak detection
+- ✅ Secure Software Development Life Cycle (SDLC)  
+- ✅ Dependency vulnerability scanning with Snyk  
+- ✅ Static Application Security Testing (SAST)
 
 ---
 
@@ -33,18 +34,19 @@ Whether you're a beginner or preparing for certifications like:
 
 | Icon | Title | Subtitle | Link |
 |:---:|---|---|:---:|
-| 🐳 | **Virtualization and Containers** | Cloud service models, Docker isolation & container concepts | [🔗 Visit](https://tryhackme.com/room/virtualizationandcontainers) |
-| 🏗️ | **Intro to IaC** | Infrastructure as Code basics, Terraform & template security | [🔗 Visit](https://tryhackme.com/room/introtoiac) |
-| 🛡️ | **Cluster Hardening** | Securing network policies, Kubelet, and API server controls | [🔗 Visit](https://tryhackme.com/room/clusterhardening) |
-| ⛵ | **Intro to Kubernetes** | Pods, Deployments, RBAC security & API server architecture | [🔗 Visit](https://tryhackme.com/room/introkubernetes) |
-| ☸️ | **K8s Best Security Practices** | Production Kubernetes security guidelines & pod security standards | [🔗 Visit](https://tryhackme.com/room/k8sbestsecuritypractices) |
-| 📦 | **Container Vulnerabilities** | Exploiting misconfigured Docker sockets and API endpoints | [🔗 Visit](https://tryhackme.com/room/containervulnerabilities) |
-| 🔄 | **Intro to DevSecOps** | Integrating security into DevOps culture, SDLC & pipelines | [🔗 Visit](https://tryhackme.com/room/introdevsecops) |
-| 🔍 | **Source Code Analysis** | Static Application Security Testing (SAST) & code auditing | [🔗 Visit](https://tryhackme.com/room/sourcecodeanalysis) |
-| 🔑 | **Secret Scanning** | Detecting hardcoded API keys, tokens & credentials in Git | [🔗 Visit](https://tryhackme.com/room/secretscanning) |
+| ☁️ | **Cloud Computing Fundamentals** | Cloud service models (IaaS, PaaS, SaaS), cloud architecture | [🔗 Visit](https://tryhackme.com/room/cloudcomputingfundamentals) |
+| ⚠️ | **Cloud Security Pitfalls** | Real-world cloud misconfigurations, IAM leaks & storage flaws | [🔗 Visit](https://tryhackme.com/room/cloudsecuritypitfalls) |
+| 🐳 | **Intro to Docker** | Docker containers, daemon architecture, Dockerfiles & images | [🔗 Visit](https://tryhackme.com/room/introtodockerk8pdqk) |
+| 📦 | **Virtualization and Containers** | Hypervisors vs containers, namespace isolation & cgroups | [🔗 Visit](https://tryhackme.com/room/virtualizationandcontainers) |
+| ☸️ | **Kubernetes Chall TDI 2020** | Hands-on challenge exploring Kubernetes cluster attack surface | [🔗 Visit](https://tryhackme.com/room/kuberneteschalltdi2020) |
+| 🏗️ | **Intro to IaC** | Infrastructure as Code security, Terraform syntax & controls | [🔗 Visit](https://tryhackme.com/room/introtoiac) |
+| 🔄 | **SDLC** | Software Development Life Cycle, Threat Modeling & SecOps | [🔗 Visit](https://tryhackme.com/room/sdlc) |
+| 📦 | **Snyk Open Source** | Managing third-party software dependencies & package CVEs | [🔗 Visit](https://tryhackme.com/room/snykopensource) |
+| 🔍 | **Snyk Code** | Static Application Security Testing (SAST) in development | [🔗 Visit](https://tryhackme.com/room/snykcode) |
+| 🛡️ | **App Design Flaws (OWASP)** | Mitigating modern architectural & design vulnerabilities | [🔗 Visit](https://tryhackme.com/room/owasptopten2025two) |
 
 ---
 
 ## 💼 Recommended Hands-on Portfolio Projects
-1. **Automated DevSecOps GitHub Actions Pipeline:** Build a sample CI/CD repository that executes Semgrep (SAST), TruffleHog (Secret Scanning), and Trivy (Container Vulnerability Scanning) on every push.
-2. **Kubernetes Cluster Hardening Audit:** Configure a local Minikube cluster and apply Pod Security Standards, NetworkPolicies, and RBAC restrictions, documenting the changes in a markdown guide.
+1. **Automated DevSecOps GitHub Actions Pipeline:** Build a sample CI/CD repository that executes Snyk, Semgrep (SAST), and TruffleHog (Secret Scanning) on every pull request.
+2. **Docker Security Hardening Benchmark:** Create a Dockerfile with security best practices (non-root user, multi-stage build, minimal base image) and document vulnerability reduction.
