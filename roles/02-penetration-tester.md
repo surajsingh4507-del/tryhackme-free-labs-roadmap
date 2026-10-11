@@ -1,77 +1,59 @@
-# ⚔️ Penetration Tester & Ethical Hacker Roadmap (100% Free Labs)
+# ⚔️ Free TryHackMe Penetration Tester & Ethical Hacker Labs – Web, Network & Exploitation Practice
 
-> **Role Overview:** A Penetration Tester (Ethical Hacker) identifies security vulnerabilities in networks, web applications, and systems before malicious attackers exploit them. This role requires deep knowledge of offensive techniques, enumeration, vulnerability exploitation, and privilege escalation.
-
----
-
-## 🎯 Key Competencies & Skill Matrix
-
-```
-       [ Recon & Scanning ]    ──────────► ( Nmap, Rustscan, GoBuster )
-                 │
-       [ Web App Security ]    ──────────► ( Burp Suite, OWASP Top 10, SQLi, XSS )
-                 │
-       [ System Exploitation ] ──────────► ( Metasploit, Searchsploit, Custom Exploits )
-                 │
-       [ Privilege Escalation ]──────────► ( LinPEAS, WinPEAS, SUID, Sudo rules )
-```
+A curated list of **free TryHackMe rooms** focused entirely on **Penetration Testing** and **Ethical Hacking** training. Ideal for **Junior Penetration Testers**, **Ethical Hackers**, and **Offensive Security enthusiasts**, these hands-on labs cover core skills like **network scanning**, **web application exploitation (OWASP Top 10)**, **privilege escalation**, and **CTF challenges**.
 
 ---
 
-## 🎓 Aligned Industry Certifications
-- **eJPT** (eLearnSecurity Junior Penetration Tester)
-- **PNPT** (Practical Network Penetration Tester)
-- **CompTIA PenTest+** (PT0-002)
-- **OSCP** (Offensive Security Certified Professional)
-- **CEH** (Certified Ethical Hacker)
+## 🚀 Why This List?
+
+Whether you're a beginner or preparing for certifications like:
+
+- eJPT (eLearnSecurity Junior Penetration Tester)
+- PNPT (Practical Network Penetration Tester)
+- CompTIA PenTest+ (PT0-002)
+- OSCP (Offensive Security Certified Professional)
+- CEH (Certified Ethical Hacker)
+
+...these labs will help you develop skills in:
+
+- ✅ Network enumeration & port scanning (Nmap)  
+- ✅ Intercepting proxies & request manipulation (Burp Suite)  
+- ✅ Web application exploitation (SQLi, XSS, File Uploads)  
+- ✅ Metasploit framework exploitation & meterpreter  
+- ✅ Linux & Windows privilege escalation techniques  
+- ✅ Real-world CTF challenge methodology & root flags
 
 ---
 
-## 🚀 Phase 1: Offensive Security Fundamentals & Networking
+# 📚 TryHackMe Penetration Testing Room List (Free)
 
-Master foundational networking tools and essential command-line scanning techniques.
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 1 | **Starting Off in Cybersecurity** | Info | 20 mins | [Access THM](https://tryhackme.com/room/startingoffincsecurity) | Overview of ethical hacking paths & methodologies |
-| 2 | **Nmap** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/nmap) | Network scanning, port discovery, script engine (NSE) |
-| 3 | **Further Nmap** | Medium | 1 hr | [Access THM](https://tryhackme.com/room/furthernmap) | Advanced scan flags, stealth scanning, evasion techniques |
-| 4 | **Subdomain Enumeration** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/subdomainenumeration) | Sublist3r, OSINT DNS enumeration, virtual host discovery |
-| 5 | **Network Services** | Easy | 1.5 hrs | [Access THM](https://tryhackme.com/room/networkservices) | Enumerating SMB, Telnet, FTP services |
-| 6 | **Network Services 2** | Easy | 1.5 hrs | [Access THM](https://tryhackme.com/room/networkservices2) | Enumerating & exploiting NFS, SMTP, MySQL |
+> 🆓 These rooms are **100% free** at the time of writing and updated regularly.
 
 ---
 
-## 🌐 Phase 2: Web Application Security (OWASP Top 10)
-
-Learn how web applications are attacked and exploited using industry-standard proxies and tools.
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 7 | **Burp Suite: The Basics** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/burpsuitebasics) | Intercepting proxy, request modification, Repeater |
-| 8 | **Burp Suite: Repeater** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/burpsuiterepeater) | Manual HTTP request manipulation & parameter fuzzing |
-| 9 | **OWASP Top 10** | Easy | 3 hrs | [Access THM](https://tryhackme.com/room/owasptop10) | Hands-on walkthrough of the 10 most critical web vulns |
-| 10 | **SQL Injection** | Easy | 1.5 hrs | [Access THM](https://tryhackme.com/room/sqlinjection) | In-band, blind, and error-based SQLi techniques |
-| 11 | **Cross-Site Scripting (XSS)** | Easy | 1.5 hrs | [Access THM](https://tryhackme.com/room/xssgi) | Stored, Reflected, and DOM-based XSS exploitation |
-| 12 | **Upload Vulnerabilities** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/uploadvulns) | Bypassing file upload restrictions for Remote Code Execution (RCE) |
-
----
-
-## 💥 Phase 3: Exploitation Frameworks & Privilege Escalation
-
-Gain initial shell access and escalate privileges on Linux and Windows targets.
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 13 | **Metasploit: Introduction** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/metasploitintro) | Msfconsole, modules, payloads, listening & handling shells |
-| 14 | **Linux Privilege Escalation** | Easy/Medium | 2 hrs | [Access THM](https://tryhackme.com/room/linprivesc) | SUID binaries, cron jobs, sudo misconfigurations, capabilities |
-| 15 | **Windows Privilege Escalation** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/windowsprivilegeescalation) | Unquoted service paths, token manipulation, automated scripts |
-| 16 | **Ignite** | Easy CTF | 1 hr | [Access THM](https://tryhackme.com/room/ignite) | Real-world Fuel CMS vulnerability exploitation to root |
-| 17 | **Pickle Rick** | Easy CTF | 1 hr | [Access THM](https://tryhackme.com/room/picklerick) | Rick and Morty themed web enumeration & privilege escalation |
-| 18 | **Brooklyn 99** | Easy CTF | 45 mins | [Access THM](https://tryhackme.com/room/brooklyn99) | Beginner friendly CTF with steganography, SSH bruteforce & sudo |
+| Icon | Title | Subtitle | Link |
+|:---:|---|---|:---:|
+| 🎯 | **Starting Off in Cybersecurity** | Ethical hacking methodology, learning paths & legal basics | [🔗 Visit](https://tryhackme.com/room/startingoffincsecurity) |
+| 🔍 | **Nmap** | Host discovery, port scanning, NSE scripts & banner grabbing | [🔗 Visit](https://tryhackme.com/room/nmap) |
+| ⚡ | **Further Nmap** | Advanced scan flags, stealth scanning & firewall evasion | [🔗 Visit](https://tryhackme.com/room/furthernmap) |
+| 🌐 | **Subdomain Enumeration** | OSINT discovery, DNS enumeration & virtual host bruteforce | [🔗 Visit](https://tryhackme.com/room/subdomainenumeration) |
+| 🔌 | **Network Services** | Enumerating & exploiting SMB, Telnet, and FTP services | [🔗 Visit](https://tryhackme.com/room/networkservices) |
+| 🔌 | **Network Services 2** | Enumerating & exploiting NFS, SMTP, and MySQL services | [🔗 Visit](https://tryhackme.com/room/networkservices2) |
+| 🦊 | **Burp Suite: The Basics** | Intercepting proxy setup, request modification & target scope | [🔗 Visit](https://tryhackme.com/room/burpsuitebasics) |
+| 🔁 | **Burp Suite: Repeater** | Manual HTTP request manipulation & fuzzing parameters | [🔗 Visit](https://tryhackme.com/room/burpsuiterepeater) |
+| 🛡️ | **OWASP Top 10** | Hands-on walkthrough of the 10 most critical web vulns | [🔗 Visit](https://tryhackme.com/room/owasptop10) |
+| 💉 | **SQL Injection** | In-band, blind, error-based SQLi & authentication bypass | [🔗 Visit](https://tryhackme.com/room/sqlinjection) |
+| 📜 | **Cross-Site Scripting (XSS)** | Stored, Reflected, and DOM-based XSS exploitation | [🔗 Visit](https://tryhackme.com/room/xssgi) |
+| 📤 | **Upload Vulnerabilities** | Bypassing file upload restrictions for Remote Code Execution (RCE) | [🔗 Visit](https://tryhackme.com/room/uploadvulns) |
+| 💥 | **Metasploit: Introduction** | Msfconsole navigation, auxiliary scanners, payloads & listeners | [🔗 Visit](https://tryhackme.com/room/metasploitintro) |
+| 🐧 | **Linux Privilege Escalation** | SUID binaries, cron jobs, sudo misconfigurations & capabilities | [🔗 Visit](https://tryhackme.com/room/linprivesc) |
+| 🪟 | **Windows Privilege Escalation** | Unquoted service paths, token manipulation & automated scripts | [🔗 Visit](https://tryhackme.com/room/windowsprivilegeescalation) |
+| 🥒 | **Pickle Rick** | Web enumeration, command injection & sudo privesc CTF | [🔗 Visit](https://tryhackme.com/room/picklerick) |
+| 🔥 | **Ignite** | Fuel CMS vulnerability exploitation to root shell CTF | [🔗 Visit](https://tryhackme.com/room/ignite) |
+| 🚔 | **Brooklyn 99** | Steganography, SSH brute-forcing & Linux privilege escalation | [🔗 Visit](https://tryhackme.com/room/brooklyn99) |
 
 ---
 
-## 💻 Recommended Portfolio Projects for PenTesters
-1. **CTF Writeup Repository:** Write clean markdown writeups for rooms like *Pickle Rick*, *Ignite*, or *OWASP Top 10* using the template in [`templates/thm-lab-writeup-template.md`](../templates/thm-lab-writeup-template.md).
-2. **Professional Penetration Testing Report:** Create a mock pentest executive report summarizing web application vulnerabilities, impact scores (CVSS), and mitigation advice using [`templates/pentest-report-template.md`](../templates/pentest-report-template.md).
+## 💼 Recommended Hands-on Portfolio Projects
+1. **CTF Walkthrough Series:** Complete *Pickle Rick* or *Ignite* and write a comprehensive writeup using our [Lab Writeup Template](../templates/thm-lab-writeup-template.md).
+2. **Professional Penetration Test Report:** Document web and network vulnerabilities, impact scores, and mitigation advice using our [Pentest Report Template](../templates/pentest-report-template.md).

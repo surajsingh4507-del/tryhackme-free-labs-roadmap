@@ -1,60 +1,50 @@
-# 🔴 Red Teamer & Advanced Adversary Simulation Roadmap (100% Free Labs)
+# 🔴 Free TryHackMe Red Teamer Labs – Active Directory, C2 & Adversary Simulation Practice
 
-> **Role Overview:** Red Teamers perform covert, multi-stage adversary simulations against enterprise networks. They simulate Advanced Persistent Threats (APTs), bypass defensive security controls, compromise Active Directory environments, and execute post-exploitation activities.
-
----
-
-## 🎯 Key Competencies & Skill Matrix
-
-```
-       [ Active Directory Attacks ] ──► ( Kerberoasting, AS-REP Roasting, BloodHound )
-                 │
-       [ Evasion & Stealth ]        ──► ( AV/EDR Bypass, Obfuscation, Living off the Land )
-                 │
-       [ Command & Control (C2) ]   ──► ( Mythic, Sliver, Covenant, Beaconing )
-                 │
-       [ Lateral Movement ]         ──► ( PsExec, WMI, WinRM, Pass-the-Hash )
-```
+A curated list of **free TryHackMe rooms** focused entirely on **Red Teaming** and **Adversary Simulation** training. Ideal for **Red Team Operators**, **Adversary Emulation Specialists**, and **Advanced Offensive Hackers**, these hands-on labs cover core skills like **Active Directory exploitation**, **Kerberos attacks**, **Command & Control (C2) operations**, and **Living off the Land (LOLBAS)**.
 
 ---
 
-## 🎓 Aligned Industry Certifications
-- **Certified Red Team Operator** (CRTO)
-- **Offensive Security Certified Expert** (OSCE / OSED / OSEP)
-- **GIAC Exploit Researcher and Advanced Penetration Tester** (GXPN)
+## 🚀 Why This List?
+
+Whether you're a beginner or preparing for certifications like:
+
+- Certified Red Team Operator (CRTO)
+- Offensive Security Experienced Penetration Tester (OSEP)
+- GIAC Exploit Researcher and Advanced Penetration Tester (GXPN)
+- Practical Network Penetration Tester (PNPT)
+
+...these labs will help you develop skills in:
+
+- ✅ Active Directory structure, Domain Controllers & GPOs  
+- ✅ Kerberos attack chains (Kerberoasting, AS-REP Roasting)  
+- ✅ Post-exploitation credential dumping & privilege persistence  
+- ✅ Red team engagement methodology & OPSEC rules  
+- ✅ TTP emulation using Atomic Red Team framework  
+- ✅ Living Off the Land Binaries and Scripts (LOLBAS)  
+- ✅ Internal lateral movement techniques & SMB exploitation
 
 ---
 
-## 🚀 Phase 1: Active Directory Basics & Attack Vectors
+# 📚 TryHackMe Red Team Room List (Free)
 
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 1 | **Active Directory Basics** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/activedirectorybasics) | Domain Controllers, LDAP, Kerberos authentication, GPOs |
-| 2 | **Attacking Active Directory** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/attacktivedirectory) | Impacket, Kerberoasting, AS-REP Roasting, BloodHound |
-| 3 | **Post Exploitation Basics** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/postexploitationbasics) | Hash dumping, credential harvesting, persistence creation |
+> 🆓 These rooms are **100% free** at the time of writing and updated regularly.
 
 ---
 
-## 🎭 Phase 2: Red Team Operations & C2 Infrastructure
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 4 | **Red Team Fundamentals** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/redteamfundamentals) | Engagement scoping, OPSEC, Red Team vs Pen Testing |
-| 5 | **Red Team Recon** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/redteamrecon) | Stealthy reconnaissance, domain fronting, infrastructure setup |
-| 6 | **Red Team Engagements** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/redteamengagements) | Command & Control frameworks, listeners, implants, stagers |
-
----
-
-## ⚡ Phase 3: Evasion & Post-Exploitation
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 7 | **Atomic Red Team** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/atomicredteam) | Payload encoding, shellcode execution, obfuscation |
-| 8 | **Living Off the Land** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/livingofftheland) | Exploiting native Windows binaries (Certutil, PowerShell, MSBuild) |
-| 9 | **Detecting AD Lateral Movement** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/detectingadlateralmovement) | Pass-the-Hash, Pass-the-Ticket, WinRM, WMI execution |
+| Icon | Title | Subtitle | Link |
+|:---:|---|---|:---:|
+| 🏢 | **Active Directory Basics** | Domain Controllers, LDAP, Kerberos authentication & GPOs | [🔗 Visit](https://tryhackme.com/room/activedirectorybasics) |
+| 🏹 | **Attacking Active Directory** | Impacket, Kerberoasting, AS-REP Roasting & BloodHound | [🔗 Visit](https://tryhackme.com/room/attacktivedirectory) |
+| 🔑 | **Post Exploitation Basics** | Credential dumping, persistence creation & hash harvesting | [🔗 Visit](https://tryhackme.com/room/postexploitationbasics) |
+| 🎯 | **Red Team Fundamentals** | Adversary emulation concepts, engagement scoping & OPSEC | [🔗 Visit](https://tryhackme.com/room/redteamfundamentals) |
+| 🕵️ | **Red Team Recon** | Stealthy reconnaissance, domain fronting & asset identification | [🔗 Visit](https://tryhackme.com/room/redteamrecon) |
+| 📜 | **Red Team Engagements** | Engagement documentation, rules of engagement & reporting | [🔗 Visit](https://tryhackme.com/room/redteamengagements) |
+| ⚛️ | **Atomic Red Team** | Emulating adversary TTPs to test defensive telemetry | [🔗 Visit](https://tryhackme.com/room/atomicredteam) |
+| 🪓 | **Living Off the Land** | Exploiting native Windows binaries (Certutil, MSBuild, LOLBAS) | [🔗 Visit](https://tryhackme.com/room/livingofftheland) |
+| 🔀 | **Detecting AD Lateral Movement** | Lateral movement techniques (PsExec, WMI, WinRM) & detection | [🔗 Visit](https://tryhackme.com/room/detectingadlateralmovement) |
 
 ---
 
-## 💻 Recommended Portfolio Projects for Red Teamers
-1. **Active Directory Attack & Defense Lab:** Set up a local AD domain, simulate Kerberoasting and BloodHound path discovery, and document defensive mitigation steps.
-2. **Obfuscation & Payload Generation Suite:** Create a custom PowerShell/C# stager script with base64/XOR obfuscation and test against Defender.
+## 💼 Recommended Hands-on Portfolio Projects
+1. **Active Directory Kerberoasting Attack Lab:** Build a local AD lab environment or document the AttacktiveDirectory room compromise, including BloodHound path analysis and Kerberos ticket cracking.
+2. **Atomic Red Team Execution & Detection Matrix:** Emulate 5 MITRE ATT&CK techniques using Atomic Red Team and document both the execution commands and the resulting Sysmon detection events.

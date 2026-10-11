@@ -1,77 +1,60 @@
-# 🛡️ Security Operations Center (SOC) & Security Analyst Roadmap (100% Free Labs)
+# 🔐 Free TryHackMe SOC & Security Analyst Labs – SIEM, Threat Detection, IR & Blue Team Practice
 
-> **Role Overview:** A SOC Security Analyst is the frontline defender of an organization. Responsible for monitoring security alerts, triaging incidents, analyzing network logs, and mitigating cyber threats before they escalate into full breaches.
-
----
-
-## 🎯 Key Competencies & Skill Matrix
-
-```
-       [ Log & Event Analysis ] ──────────► ( Splunk, ELK, Windows Event Logs )
-                 │
-       [ Network Forensics ]    ──────────► ( Wireshark, TCPDump, Zeek )
-                 │
-       [ Endpoint Monitoring ]  ──────────► ( Sysmon, EDR, Defender )
-                 │
-       [ Incident Triage ]      ──────────► ( Phishing, Malware Analysis, Snort )
-```
+A curated list of **free TryHackMe rooms** focused entirely on **Security Operations Center (SOC)** and **Security Analyst** training. Ideal for **SOC Analysts (Level 1 & 2)**, **Blue Teamers**, and **cybersecurity students**, these hands-on labs cover core skills like **SIEM analysis**, **incident response**, **Windows event log monitoring**, and **threat detection**.
 
 ---
 
-## 🎓 Aligned Industry Certifications
-- **CompTIA Security+** (SY0-701)
-- **CompTIA CySA+** (CS0-003)
-- **Blue Team Level 1** (BTL1)
-- **Microsoft SC-200** (Security Operations Analyst)
-- **Certified SOC Analyst** (CSA)
+## 🚀 Why This List?
+
+Whether you're a beginner or preparing for certifications like:
+
+- CompTIA Security+ (SY0-701)
+- CompTIA CySA+ (CS0-003)
+- SC-200: Microsoft Security Operations Analyst
+- Blue Team Level 1 (BTL1)
+- Certified SOC Analyst (CSA)
+
+...these labs will help you develop skills in:
+
+- ✅ Alert triage & investigation  
+- ✅ Incident playbook response  
+- ✅ Threat hunting & IOC detection  
+- ✅ Windows event log analysis (Sysmon & Event Viewer)  
+- ✅ APT detection & threat attribution  
+- ✅ SOC tool familiarity (Splunk, Wireshark, Snort, Zeek)
 
 ---
 
-## 🚀 Phase 1: Fundamentals & Environment Setup
+# 📚 TryHackMe SOC Room List (Free)
 
-Build your core understanding of networking, Linux/Windows operating systems, and defensive security.
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 1 | **OpenVPN Setup** | Info | 15 mins | [Access THM](https://tryhackme.com/room/openvpn) | Connect your terminal to TryHackMe attack boxes |
-| 2 | **Welcome to TryHackMe** | Info | 10 mins | [Access THM](https://tryhackme.com/room/welcometthm) | Platform navigation & lab machine interaction |
-| 3 | **Intro to Cyber Security** | Easy | 30 mins | [Access THM](https://tryhackme.com/room/introtocybersecurity) | Red vs Blue team concepts & security fundamentals |
-| 4 | **Principles of Security** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/principlesofsecurity) | CIA Triad, Security Controls, & Defense in Depth |
-| 5 | **Linux Fundamentals 1** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/linuxfundamentalspart1) | Basic Linux CLI navigation & file management |
-| 6 | **Windows Fundamentals 1** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/windowsfundamentals1) | Windows OS architecture, Control Panel, & GUI |
+> 🆓 These rooms are **100% free** at the time of writing and updated regularly.
 
 ---
 
-## 🔍 Phase 2: SIEM, Log Analysis & Detection Tools
-
-Master the primary tools used in real-world Security Operations Centers.
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 7 | **Intro to SIEM** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/introtosiem) | Concepts of SIEM, log collection, dashboards & alerts |
-| 8 | **Splunk: Basics** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/splunk101) | Searching logs, SPL queries, and filtering security events |
-| 9 | **Wireshark: The Basics** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/wiresharkthebasics) | Packet capture analysis, PCAP filter rules, & HTTP/DNS inspect |
-| 10 | **Snort** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/snort) | IDS/IPS rule writing, network signature matching |
-| 11 | **Zeek** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/zeekbro) | Network monitoring framework & log analysis |
-| 12 | **Windows Event Logs** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/windowsevents) | Investigating Event IDs 4624, 4625, 7045, & PowerShell logs |
-| 13 | **Sysmon** | Medium | 1 hr | [Access THM](https://tryhackme.com/room/sysmon) | System Monitor log telemetry, process creation, & network connections |
-
----
-
-## 🚨 Phase 3: Incident Response & Phishing Triage
-
-Learn how to handle real security incidents, triage suspicious emails, and detect malware execution.
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 14 | **Phishing Emails 101** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/phishingemails101) | Email header analysis, SPF/DKIM/DMARC, attachment analysis |
-| 15 | **Incident Response Methodology** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/incidentresponsemethodology) | PICERL framework (Preparation, Identification, Containment...) |
-| 16 | **Investigat3d** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/investigat3d) | Hands-on Windows triage, compromised machine investigation |
-| 17 | **Blueprint** | Medium | 1 hr | [Access THM](https://tryhackme.com/room/blueprint) | Blue team defenses, hardening, and network security audit |
-| 18 | **Base64** | Easy | 30 mins | [Access THM](https://tryhackme.com/room/base64) | Decoding obfuscated malware payloads & PowerShell commands |
+| Icon | Title | Subtitle | Link |
+|:---:|---|---|:---:|
+| 🔵 | **SOC Role in Blue Team** | Discover security roles & SOC analyst workflow | [🔗 Visit](https://tryhackme.com/room/socroleinblueteam) |
+| 🛡️ | **Defensive Security Intro** | Introduction to defensive concepts, SIEM, and SOC operations | [🔗 Visit](https://tryhackme.com/room/defensivesecurityintroqW) |
+| 📊 | **Introduction to SIEM** | Fundamentals of SIEM, log collection, dashboards & alerts | [🔗 Visit](https://tryhackme.com/room/introtosiem) |
+| 🖥️ | **Introduction to EDR** | Fundamentals of Endpoint Detection and Response | [🔗 Visit](https://tryhackme.com/room/introductiontoedrs) |
+| 📘 | **IR Playbooks** | Incident response handling playbooks and triage workflows | [🔗 Visit](https://tryhackme.com/room/irplaybooks) |
+| 🗂️ | **File and Hash Threat Intel** | Analyzing malicious file hashes and threat intelligence | [🔗 Visit](https://tryhackme.com/room/fileandhashthreatintel) |
+| 🧠 | **Splunk: Exploring SPL** | Querying logs, SPL queries, and filtering security events | [🔗 Visit](https://tryhackme.com/room/splunkexploringspl) |
+| 🧠 | **SOC Analyst Basics** | SOC L1 alert reporting & triage methodologies | [🔗 Visit](https://tryhackme.com/room/socl1alertreporting) |
+| 🕵️ | **Threat Hunting Without Logs** | Logless threat hunting on compromised systems | [🔗 Visit](https://tryhackme.com/room/loglesshunt) |
+| ⚔️ | **APT Detection (Volt Typhoon)** | Investigating real-world adversary campaign artifacts | [🔗 Visit](https://tryhackme.com/room/volttyphoon) |
+| 🪵 | **Windows Log Analysis** | Windows logging and event ID analysis for SOC | [🔗 Visit](https://tryhackme.com/room/windowsloggingforsoc) |
+| 📂 | **Windows Threat Detection** | Detecting malicious behaviors in Windows environments | [🔗 Visit](https://tryhackme.com/room/windowsthreatdetection1) |
+| 🦈 | **Wireshark: The Basics** | Packet capture analysis, PCAP filter rules, & HTTP/DNS inspect | [🔗 Visit](https://tryhackme.com/room/wiresharkthebasics) |
+| 🚨 | **Snort** | IDS/IPS rule writing and network signature matching | [🔗 Visit](https://tryhackme.com/room/snort) |
+| 🌐 | **Zeek** | Network monitoring framework & traffic log analysis | [🔗 Visit](https://tryhackme.com/room/zeekbro) |
+| 🔍 | **Sysmon** | System Monitor telemetry, process creation & network monitoring | [🔗 Visit](https://tryhackme.com/room/sysmon) |
+| 📧 | **Phishing Emails 101** | Email header analysis, SPF/DKIM/DMARC & attachment triage | [🔗 Visit](https://tryhackme.com/room/phishingemails101) |
+| 📝 | **Incident Response Methodology** | PICERL framework (Preparation, Identification, Containment...) | [🔗 Visit](https://tryhackme.com/room/incidentresponsemethodology) |
+| 🕵️ | **Investigat3d** | Hands-on Windows triage, compromised machine investigation | [🔗 Visit](https://tryhackme.com/room/investigat3d) |
 
 ---
 
-## 💻 Recommended Portfolio Projects for SOC Analyst
-1. **Splunk Lab Writeup & Dashboards:** Create a GitHub writeup demonstrating how you queried Splunk logs to detect a brute-force SSH/RDP attack.
-2. **Wireshark PCAP Analysis Report:** Analyze a malicious PCAP file, document IOCs (IP addresses, domain names, hashes), and map the attacker actions to MITRE ATT&CK. (Use template from [`templates/incident-report-template.md`](../templates/incident-report-template.md)).
+## 💼 Recommended Hands-on Portfolio Projects
+1. **Splunk Threat Detection Lab:** Document how you built SPL queries to detect brute-force attacks and privilege escalation.
+2. **SOC Incident Triage Report:** Use our [Incident Report Template](../templates/incident-report-template.md) to build a professional incident triage report for your resume/GitHub.

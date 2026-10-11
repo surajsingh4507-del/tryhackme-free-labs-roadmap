@@ -1,63 +1,52 @@
-# 🛠️ Security Engineer & Defensive Architecture Roadmap (100% Free Labs)
+# 🛠️ Free TryHackMe Security Engineer Labs – Network Defenses, Firewalls & Hardening Practice
 
-> **Role Overview:** A Security Engineer designs, builds, and maintains robust security infrastructure. They focus on secure network architecture, firewall configuration, cryptographic implementations, vulnerability management, and defensive rule engineering.
-
----
-
-## 🎯 Key Competencies & Skill Matrix
-
-```
-       [ Network Security & Hardening ] ──► ( Firewalls, DMZ, Microsegmentation )
-                 │
-       [ Security Controls & IDS ]     ──► ( Snort, Suricata, Yara Rules )
-                 │
-       [ Applied Cryptography ]        ──► ( TLS, PKI, Symmetric & Asymmetric Encryption )
-                 │
-       [ Vulnerability Assessment ]    ──► ( OpenVAS, Nessus, Security Auditing )
-```
+A curated list of **free TryHackMe rooms** focused entirely on **Security Engineering** and **Defensive Architecture** training. Ideal for **Security Engineers**, **Infrastructure Defenders**, and **Systems Administrators**, these hands-on labs cover core skills like **network segregation**, **firewall rule configuration**, **custom detection signature writing**, and **cryptography**.
 
 ---
 
-## 🎓 Aligned Industry Certifications
-- **CompTIA Security+**
-- **Certified Information Systems Security Professional** (CISSP - Associate)
-- **GIAC Security Essentials** (GSEC)
-- **Certified Cloud Security Professional** (CCSP)
+## 🚀 Why This List?
+
+Whether you're a beginner or preparing for certifications like:
+
+- CompTIA Security+ (SY0-701)
+- GIAC Security Essentials (GSEC)
+- Certified Information Systems Security Professional (CISSP - Associate)
+- Certified Cloud Security Professional (CCSP)
+
+...these labs will help you develop skills in:
+
+- ✅ Network defense architecture & DMZ design  
+- ✅ Firewall configuration (iptables & stateful inspection)  
+- ✅ Writing custom YARA detection rules  
+- ✅ Snort IDS signature engineering  
+- ✅ Cryptographic protocols, PKI & TLS implementations  
+- ✅ Vulnerability scanning & remediation lifecycle  
+- ✅ Linux operating system hardening
 
 ---
 
-## 🚀 Phase 1: Defensive Architecture & Network Controls
+# 📚 TryHackMe Security Engineering Room List (Free)
 
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 1 | **Defensive Security Intro** | Info | 20 mins | [Access THM](https://tryhackme.com/room/defensivesecurityintro) | Overview of defensive security & enterprise engineering |
-| 2 | **Network Defenses** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/networkdefenses) | Firewalls, IDS/IPS placement, network segregation |
-| 3 | **Firewalls** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/firewalls) | Packet filtering, stateful firewalls, iptables configuration |
-| 4 | **DNS in Detail** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/dnsindetail) | DNS architecture, record types, DNSSEC, security threats |
+> 🆓 These rooms are **100% free** at the time of writing and updated regularly.
 
 ---
 
-## 🛡️ Phase 2: Threat Detection Engineering & Cryptography
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 5 | **YARA** | Easy/Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/yara) | Malware signature creation, YARA rule syntax & testing |
-| 6 | **Snort Rule Engineering** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/snort) | Writing custom Snort IDS signatures for exploit detection |
-| 7 | **Intro to Cryptography** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/cryptographyintro) | Hashing algorithms, AES/RSA encryption, PKI & TLS |
-| 8 | **Encryption - Crypto 101** | Easy | 1.5 hrs | [Access THM](https://tryhackme.com/room/crypto101) | Symmetric vs Asymmetric key exchange, RSA math basics |
-
----
-
-## 🏗️ Phase 3: Vulnerability Management & Infrastructure Security
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 9 | **Vulnerability Management** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/vulnerabilitymanagement) | Scanning lifecycle, prioritization, patching strategy |
-| 10 | **Nessus** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/nessus) | Vulnerability scanning, policy creation, reporting |
-| 11 | **Linux Security & Hardening** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/linuxsecurity) | SSH hardening, file permissions, PAM, SELinux basics |
+| Icon | Title | Subtitle | Link |
+|:---:|---|---|:---:|
+| 🛡️ | **Defensive Security Intro** | Introduction to defensive concepts, SIEM, and SOC operations | [🔗 Visit](https://tryhackme.com/room/defensivesecurityintroqW) |
+| 🏰 | **Network Defenses** | Firewalls, IDS/IPS placement, and network segregation | [🔗 Visit](https://tryhackme.com/room/networkdefenses) |
+| 🧱 | **Firewalls** | Packet filtering, stateful inspection, and iptables rules | [🔗 Visit](https://tryhackme.com/room/firewalls) |
+| 🌐 | **DNS in Detail** | DNS architecture, record types, DNSSEC & security threats | [🔗 Visit](https://tryhackme.com/room/dnsindetail) |
+| 📝 | **YARA** | Malware signature creation, YARA rule syntax & pattern matching | [🔗 Visit](https://tryhackme.com/room/yara) |
+| 🚨 | **Snort Rule Engineering** | Writing custom Snort IDS signatures for exploit detection | [🔗 Visit](https://tryhackme.com/room/snort) |
+| 🔑 | **Intro to Cryptography** | Hashing algorithms, AES/RSA encryption, PKI & TLS certificates | [🔗 Visit](https://tryhackme.com/room/cryptographyintro) |
+| 🔒 | **Encryption - Crypto 101** | Symmetric vs asymmetric key exchange & RSA math basics | [🔗 Visit](https://tryhackme.com/room/crypto101) |
+| 📋 | **Vulnerability Management** | Scanning lifecycle, CVSS scoring, and patching strategy | [🔗 Visit](https://tryhackme.com/room/vulnerabilitymanagement) |
+| 🔎 | **Nessus** | Vulnerability scanning, policy creation, and audit reports | [🔗 Visit](https://tryhackme.com/room/nessus) |
+| 🐧 | **Linux Security & Hardening** | SSH hardening, file permissions, PAM & SELinux basics | [🔗 Visit](https://tryhackme.com/room/linuxsecurity) |
 
 ---
 
-## 💻 Recommended Portfolio Projects for Security Engineers
-1. **Custom YARA & Snort Rule Suite:** Write a set of custom YARA signatures for ransomware artifacts and Snort rules for web attacks (SQLi/XSS), publishing them as an open-source GitHub repo.
-2. **Secure Network Topology Architecture Diagram:** Design a dual-homed DMZ network diagram with IDS/IPS, WAF, and SIEM integration.
+## 💼 Recommended Hands-on Portfolio Projects
+1. **Custom Detection Rule Repository:** Build an open-source GitHub repo containing custom YARA signatures and Snort rules for emerging CVEs.
+2. **Defensive Network Topology Blueprint:** Design a zero-trust / defense-in-depth architecture diagram incorporating WAF, DMZ, and internal firewall segments.

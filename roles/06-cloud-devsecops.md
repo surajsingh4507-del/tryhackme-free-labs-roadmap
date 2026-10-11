@@ -1,61 +1,50 @@
-# ☁️ Cloud Security & DevSecOps Roadmap (100% Free Labs)
+# ☁️ Free TryHackMe Cloud & DevSecOps Labs – Containers, Kubernetes & CI/CD Security Practice
 
-> **Role Overview:** Cloud Security & DevSecOps Engineers integrate security controls into CI/CD pipelines, secure cloud infrastructure (AWS, Azure, GCP), enforce IAM policies, monitor container deployments (Docker/Kubernetes), and automate compliance checks.
-
----
-
-## 🎯 Key Competencies & Skill Matrix
-
-```
-       [ Cloud Fundamentals ]  ──────────► ( AWS IAM, S3 Bucket Security, Azure AD )
-                 │
-       [ Container Security ]  ──────────► ( Docker Bench Security, Kubernetes Hardening )
-                 │
-       [ DevSecOps & CI/CD ]   ──────────► ( SAST, DAST, Secret Scanning, Git Hooks )
-                 │
-       [ Infrastructure as Code]─────────► ( Terraform Security, Trivy, Checkov )
-```
+A curated list of **free TryHackMe rooms** focused entirely on **Cloud Security** and **DevSecOps** training. Ideal for **Cloud Security Engineers**, **DevSecOps Specialists**, and **Cloud Architects**, these hands-on labs cover core skills like **Docker container security**, **Kubernetes hardening**, **Infrastructure as Code (IaC)**, and **secure CI/CD pipelines**.
 
 ---
 
-## 🎓 Aligned Industry Certifications
-- **AWS Certified Security - Specialty**
-- **Microsoft Certified: Azure Security Engineer** (AZ-500)
-- **Certified Kubernetes Security Specialist** (CKS)
-- **Certified DevSecOps Professional** (CDP)
+## 🚀 Why This List?
+
+Whether you're a beginner or preparing for certifications like:
+
+- AWS Certified Security - Specialty
+- Microsoft Certified: Azure Security Engineer (AZ-500)
+- Certified Kubernetes Security Specialist (CKS)
+- Certified DevSecOps Professional (CDP)
+
+...these labs will help you develop skills in:
+
+- ✅ Cloud infrastructure models & shared responsibility  
+- ✅ Infrastructure as Code (IaC) security auditing (Terraform)  
+- ✅ Docker container security & breakout prevention  
+- ✅ Kubernetes architecture & cluster hardening  
+- ✅ DevSecOps culture & "Shift Left" methodologies  
+- ✅ Static Application Security Testing (SAST) in CI/CD  
+- ✅ Automated secret scanning & credential leak detection
 
 ---
 
-## 🚀 Phase 1: Cloud & Infrastructure Fundamentals
+# 📚 TryHackMe Cloud & DevSecOps Room List (Free)
 
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 1 | **Virtualization and Containers** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/virtualizationandcontainers) | Cloud service models, Docker & container concepts |
-| 2 | **Intro to IaC** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/introtoiac) | Infrastructure as Code basics, Terraform fundamentals |
-| 3 | **Cluster Hardening** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/clusterhardening) | Cloud misconfigurations & Kubernetes network hardening |
+> 🆓 These rooms are **100% free** at the time of writing and updated regularly.
 
 ---
 
-## 🐳 Phase 2: Container Security & Kubernetes
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 4 | **Virtualization and Containers** | Easy/Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/virtualizationandcontainers) | Container escape vulnerabilities, Docker isolation |
-| 5 | **Intro to Kubernetes** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/introkubernetes) | Pods, Deployments, RBAC, API Server security |
-| 6 | **K8s Best Security Practices** | Medium | 2 hrs | [Access THM](https://tryhackme.com/room/k8sbestsecuritypractices) | Exploiting misconfigured Docker sockets and API endpoints |
-
----
-
-## 🔒 Phase 3: DevSecOps & Pipeline Security
-
-| # | Room Name | Difficulty | Est. Time | Direct Link | Primary Skill / Learning Objective |
-|---|-----------|------------|-----------|-------------|-----------------------------------|
-| 7 | **Intro to DevSecOps** | Easy | 1 hr | [Access THM](https://tryhackme.com/room/introdevsecops) | Integrating security into DevOps (Shift Left), SAST vs DAST |
-| 8 | **Source Code Analysis** | Medium | 1.5 hrs | [Access THM](https://tryhackme.com/room/sourcecodeanalysis) | Static Application Security Testing (SAST) & code auditing |
-| 9 | **Secret Scanning** | Easy | 45 mins | [Access THM](https://tryhackme.com/room/secretscanning) | Finding leaked API keys, tokens, and credentials in Git |
+| Icon | Title | Subtitle | Link |
+|:---:|---|---|:---:|
+| 🐳 | **Virtualization and Containers** | Cloud service models, Docker isolation & container concepts | [🔗 Visit](https://tryhackme.com/room/virtualizationandcontainers) |
+| 🏗️ | **Intro to IaC** | Infrastructure as Code basics, Terraform & template security | [🔗 Visit](https://tryhackme.com/room/introtoiac) |
+| 🛡️ | **Cluster Hardening** | Securing network policies, Kubelet, and API server controls | [🔗 Visit](https://tryhackme.com/room/clusterhardening) |
+| ⛵ | **Intro to Kubernetes** | Pods, Deployments, RBAC security & API server architecture | [🔗 Visit](https://tryhackme.com/room/introkubernetes) |
+| ☸️ | **K8s Best Security Practices** | Production Kubernetes security guidelines & pod security standards | [🔗 Visit](https://tryhackme.com/room/k8sbestsecuritypractices) |
+| 📦 | **Container Vulnerabilities** | Exploiting misconfigured Docker sockets and API endpoints | [🔗 Visit](https://tryhackme.com/room/containervulnerabilities) |
+| 🔄 | **Intro to DevSecOps** | Integrating security into DevOps culture, SDLC & pipelines | [🔗 Visit](https://tryhackme.com/room/introdevsecops) |
+| 🔍 | **Source Code Analysis** | Static Application Security Testing (SAST) & code auditing | [🔗 Visit](https://tryhackme.com/room/sourcecodeanalysis) |
+| 🔑 | **Secret Scanning** | Detecting hardcoded API keys, tokens & credentials in Git | [🔗 Visit](https://tryhackme.com/room/secretscanning) |
 
 ---
 
-## 💻 Recommended Portfolio Projects for DevSecOps
-1. **GitHub Actions Security Pipeline:** Build a GitHub Actions workflow that automatically scans pull requests using Trivy (containers), Semgrep (SAST), and TruffleHog (secret scanning).
-2. **Terraform IaC Security Audit:** Create misconfigured Terraform scripts and demonstrate automated remediation using Checkov/tfsec.
+## 💼 Recommended Hands-on Portfolio Projects
+1. **Automated DevSecOps GitHub Actions Pipeline:** Build a sample CI/CD repository that executes Semgrep (SAST), TruffleHog (Secret Scanning), and Trivy (Container Vulnerability Scanning) on every push.
+2. **Kubernetes Cluster Hardening Audit:** Configure a local Minikube cluster and apply Pod Security Standards, NetworkPolicies, and RBAC restrictions, documenting the changes in a markdown guide.
